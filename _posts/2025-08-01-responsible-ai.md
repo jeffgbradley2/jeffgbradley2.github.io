@@ -1,4 +1,8 @@
-# Responsible AI
+---
+layout: post
+title: "Responsible AI"
+date: 2025-08-01
+---
 
 I'm a big believer in [Responsible AI](https://www.ibm.com/think/topics/responsible-ai). But I don't think most organizations are. In fact, I think most organizations are doing AI backward, building that "big idea" as fast as possible, putting off consequences for later. 
 
