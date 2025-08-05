@@ -10,7 +10,7 @@ Risk management in an enterprise environment is a significant undertaking, but i
 I've found that AI risk management is even more complex than its traditional counterpart. There are many unique factors to consider that fall outside the typical scope, such as prompt injection, data poisoning, model misalignment, and rogue agents, the list goes on. At the same time, AI is advancing and being deployed at a rate I haven't seen in my career. It seems every company is racing to implement LLMs and intelligent agents.
 
 ## The NIST AI Risk Management Framework
-Fortunately, the National Institute of Standards and Technology (NIST) provides a comprehensive AI Risk Management Framework that is free to use. It's not a light read, but it is exceptionally thorough. For the interested reader, I suggest loading the PDF into a tool like NotebookLM to help you digest it (NotebookLM is a fantastic tool for this, by the way).
+Fortunately, the National Institute of Standards and Technology (NIST) provides a comprehensive [AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) that is free to use. It's not a light read, but it is exceptionally thorough. For the interested reader, I suggest loading the PDF into a tool like NotebookLM to help you digest it (NotebookLM is a fantastic tool for this, by the way).
 
 The framework outlines four core functions for AI risk management: Govern, Map, Measure, and Manage. Let's explore what these mean in practice.
 
@@ -24,7 +24,7 @@ Writing a procedure doesn't mean the job is done. Now comes the hard part: imple
 With governance in place and risks mapped, it's time to assess and monitor them. The assessment process typically analyzes the likelihood and impact of each risk, often on a scale of 1 to 5, to determine an overall risk level. This level then dictates the required action, such as Mitigate, Accept, or Avoid. If mitigation is the chosen path, specific controls are selected and implemented. The system is then monitored with these controls in place to determine the residual risk.
 
 ### Manage
-Managing risks involves allocating resources, assigning responsibilities, and documenting risk treatment plans. When implementing a framework like ISO 42001, this means planning who is responsible for what, carrying out the risk treatment process, and documenting the results. It also involves communicating these plans and outcomes to stakeholders and establishing a schedule for regularly reviewing the effectiveness of the implemented mitigations.
+Managing risks involves allocating resources, assigning responsibilities, and documenting risk treatment plans. When implementing a framework like [ISO 42001](https://www.iso.org/standard/42001), this means planning who is responsible for what, carrying out the risk treatment process, and documenting the results. It also involves communicating these plans and outcomes to stakeholders and establishing a schedule for regularly reviewing the effectiveness of the implemented mitigations.
 
 ## Benefits of AI Risk Management
 Like insurance or a firewall, the value of time and money spent on AI risk management isn't always felt directly. Instead, the benefit is the absence of a negative event. The old adage "an ounce of prevention is worth a pound of cure" is especially true here. A nickel spent on upfront planning and mitigation can save a dollar (or a million) down the road. And when done properly, this process can uncover opportunities that might have otherwise been missed.
