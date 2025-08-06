@@ -1,13 +1,51 @@
-# Jeff Bradley
+# About
 
-Building [MetaReason](https://github.com/metareason-ai) to quantify AI confidence.
+I'm Jeff Bradley, a Principal AI Engineer at Rygen Technologies with over 15 years of software engineering experience. I specialize in supply chain software and have spent the last few years focusing exclusively on AI/ML, where I build AI systems and frameworks while leading our AI strategy.
 
-## Posts
+I'm the founder of [MetaReason](https://github.com/metareason-ai), where we're working to quantify AI confidence through rigorous statistical methods and modern NLP techniques. I'm deeply interested in evaluating large language models and building custom models that solve real-world problems.
+
+## What I'm Building
+
+After years of evaluating LLMs and building evaluation frameworks in enterprise settings, I've seen firsthand how difficult it is to create consistently trustworthy AI systems. MetaReason is my vision for bringing classical probability and statistics to bear on this problem—an Open Source, Open Governance approach to AI evaluation that goes beyond qualitative measures.
+
+## Technical Stack
+
+- **AI/ML & Data Science** - Python with the full ecosystem (PyTorch, TensorFlow, scikit-learn, pandas, numpy, etc.)
+- **Backend Development** - Java with Spring Boot for enterprise systems
+- **Full-Stack** - TypeScript and Node.js for modern web applications
+- **Supply Chain Systems** - 15+ years building mission-critical logistics and optimization software
+
+## My Focus Areas
+
+- **AI Risk Management** - Implementing frameworks like ISO 42001 and NIST's AI RMF in practice (ISO 42001 Certified Auditor)
+- **Responsible AI** - Building guardrails before stomping on the accelerator
+- **AI Governance** - Making governance genuinely beneficial, not just box-checking
+- **Statistical Methods for AI** - Applying classical statistical techniques with modern NLP to LLM evaluations
+
+## Open Source
+
+I'm the maintainer and primary contributor to [metareason-core](https://github.com/metareason-ai/metareason-core), an open-source framework for quantifying AI confidence. After years of proprietary work, I'm excited to finally contribute to the open-source community.
+
+## Recent Posts
 
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %d, %Y" }}
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span style="color: #666; font-size: 0.9em;">— {{ post.date | date: "%B %d, %Y" }}</span>
+      {% if post.excerpt %}
+        <br><span style="color: #555; font-size: 0.9em;">{{ post.excerpt | strip_html | truncatewords: 20 }}</span>
+      {% endif %}
     </li>
   {% endfor %}
 </ul>
+
+## Personal
+
+I'm an avid lifelong learner, addicted to technical books—my hobbies are reading, studying, and more reading. I live in Greenville, SC with my wife and our dog Jones. When I'm not building AI systems or diving into the latest research papers, you'll find me with a book in hand, usually something about mathematics, statistics, or software architecture. [Manning Publications](https://manning.com) is my go-to resource for technical books.
+
+## Connect
+
+- [GitHub - MetaReason](https://github.com/metareason-ai)
+- [LinkedIn](https://linkedin.com/in/jeffgbradley)
+- [Email](mailto:jeff@metareason.ai)

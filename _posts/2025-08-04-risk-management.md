@@ -4,7 +4,6 @@ title: "AI Risk Management"
 date: 2025-08-04
 ---
 
-## AI Risk Management
 Risk management in an enterprise environment is a significant undertaking, but it's a necessary one. It's often downplayed by fast-moving teams as something that "slows you down" and "adds bureaucracy." Perhaps those teams haven't yet had to deal with the consequences of an unmitigated risk, or they simply prioritize speed above all else.
 
 I've found that AI risk management is even more complex than its traditional counterpart. There are many unique factors to consider that fall outside the typical scope, such as prompt injection, data poisoning, model misalignment, and rogue agents, the list goes on. At the same time, AI is advancing and being deployed at a rate I haven't seen in my career. It seems every company is racing to implement LLMs and intelligent agents.
