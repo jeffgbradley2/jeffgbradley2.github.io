@@ -1,12 +1,12 @@
 # About
 
-I'm Jeff Bradley, a Principal AI Engineer at Rygen Technologies with over 15 years of software engineering experience. I specialize in supply chain software and have spent the last few years focusing exclusively on AI/ML, where I build AI systems and frameworks while leading our AI strategy.
+I'm Jeff Bradley, a Principal AI Engineer at a tech company where I build AI systems and frameworks and lead AI strategy. I've got over 15 years of software engineering experience and have spent the last few years focusing exclusively on AI/ML. I'm deeply interested in the evaluation and development of responsible, trustworthy AI systems. 
 
 I'm the founder of [MetaReason](https://github.com/metareason-ai), where we're working to quantify AI confidence through rigorous statistical methods and modern NLP techniques. I'm deeply interested in evaluating large language models and building custom models that solve real-world problems.
 
 ## What I'm Building
 
-After years of evaluating LLMs and building evaluation frameworks in enterprise settings, I've seen firsthand how difficult it is to create consistently trustworthy AI systems. MetaReason is my vision for bringing classical probability and statistics to bear on this problem—an Open Source, Open Governance approach to AI evaluation that goes beyond qualitative measures.
+After years of evaluating LLMs and building evaluation frameworks in enterprise settings, I've seen firsthand how difficult it is to create consistently trustworthy AI systems. MetaReason is my vision for bringing classical probability and statistics to bear on this problem, an Open Source, Open Governance approach to AI evaluation that goes beyond qualitative measures.
 
 ## Technical Stack
 
