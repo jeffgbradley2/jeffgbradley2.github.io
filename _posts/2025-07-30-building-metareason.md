@@ -4,7 +4,7 @@ title: "Building Metareason"
 date: 2025-07-30
 ---
 
-# Building MetaReason
+## Building MetaReason
 
 Over the last few years, I've used Large Language Models at work and in my personal life. They amaze me with their ability to understand and produce coherent, useful text. But I'm also regularly let down by them, sometimes in unexpected and subtle ways. Small changes to inputs can produce drastically different outputs. I've spent countless hours evaluating LLMs and building evaluation frameworks, all with the goal of creating AI systems that are consistently trustworthy.
 

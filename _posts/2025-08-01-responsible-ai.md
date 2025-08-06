@@ -4,7 +4,7 @@ title: "Responsible AI"
 date: 2025-08-01
 ---
 
-# Responsible AI
+## Responsible AI
 I'm a big believer in [Responsible AI](https://www.ibm.com/think/topics/responsible-ai). But I don't think most organizations are. In fact, I think most organizations are doing AI backward, building that "big idea" as fast as possible, putting off consequences for later. 
 
 Responsible AI is an approach to development of AI systems that involves comprehensive [AI governance](https://www.ibm.com/think/topics/ai-governance), which encompasses the tools, rules, processes, procedures, and values these systems are developed with. It focuses on ensuring that AI systems are ethical, safe, and trustworthy. Think of it as building guardrails before stomping on the accelerator. 
