@@ -1,0 +1,21 @@
+<header class="site-header">
+  <h1 class="site-title">
+    <a href="{{ "/" | relative_url }}">{{ site.title | default: site.github.repository_name }}</a>
+  </h1>
+  
+  {% if site.description %}
+    <p class="site-description">{{ site.description }}</p>
+  {% endif %}
+
+  <nav class="site-nav">
+    <h3>Recent Posts</h3>
+    <ul class="post-list">
+      {% for post in site.posts limit:10 %}
+        <li>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <span class="post-date">{{ post.date | date: "%b %d, %Y" }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>

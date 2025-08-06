@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title | default: site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <style>
+      .post-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      .post-list li {
+        margin-bottom: 0.8em;
+        line-height: 1.3;
+      }
+      .post-list a {
+        display: block;
+        font-size: 0.95em;
+        text-decoration: none;
+        color: #267CB9;
+      }
+      .post-list a:hover {
+        text-decoration: underline;
+      }
+      .post-date {
+        display: block;
+        font-size: 0.8em;
+        color: #666;
+        margin-top: 0.2em;
+      }
+      .site-nav h3 {
+        margin-top: 2em;
+        margin-bottom: 0.5em;
+        font-size: 1.1em;
+        color: #333;
+      }
+      .site-description {
+        font-size: 0.9em;
+        color: #555;
+        margin: 1em 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      {% include sidebar.html %}
+      <section>
+        {{ content }}
+      </section>
+      <footer>
+        {% if site.github.is_project_page %}
+          <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% endif %}
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>
