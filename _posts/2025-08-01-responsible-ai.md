@@ -8,7 +8,7 @@ I'm a big believer in [Responsible AI](https://www.ibm.com/think/topics/responsi
 
 Responsible AI is an approach to development of AI systems that involves comprehensive [AI governance](https://www.ibm.com/think/topics/ai-governance), which encompasses the tools, rules, processes, procedures, and values these systems are developed with. It focuses on ensuring that AI systems are ethical, safe, and trustworthy. Think of it as building guardrails before stomping on the accelerator. 
 
-That's a lot of words. 
+But that's just a lot of words. 
 
 In practice, responsible AI means adopting practices to assess the impacts of AI systems, mitigate risks, and ensure they provide value to stakeholders. This isn't an easy lift in the messy real world, where there are many competing objectives. And there isn't a one-size-fits-all approach either; what is responsible for one organization or team isn't necessarily the same for another. I've learned this firsthand.
 
