@@ -1,8 +1,8 @@
 # About
 
-I'm Jeff Bradley, a Principal AI Engineer at a tech company where I build AI systems and frameworks and lead AI strategy. I've got over 15 years of software engineering experience and have spent the last few years focusing exclusively on AI/ML. I'm deeply interested in the evaluation and development of responsible, trustworthy AI systems. 
+I'm Jeff Bradley (my friends call me Field), a Principal AI Engineer at a tech company where I build AI systems and frameworks and lead AI strategy. I've got over 15 years of software engineering experience and have spent the last few years focusing exclusively on AI/ML. I'm deeply interested in the evaluation and development of responsible, trustworthy AI systems. 
 
-I'm the founder of [MetaReason](https://github.com/metareason-ai), where we're working to quantify AI confidence through rigorous statistical methods and modern NLP techniques. I'm deeply interested in evaluating large language models and building custom models that solve real-world problems.
+I'm the founder of [MetaReason](https://github.com/metareason-ai), where I'm working to quantify AI confidence through rigorous statistical methods and modern NLP techniques. I'm deeply interested in evaluating large language models and building custom models that solve real-world problems. 
 
 ## What I'm Building
 
@@ -11,12 +11,14 @@ After years of evaluating LLMs and building evaluation frameworks in enterprise 
 ## Technical Stack
 
 - **AI/ML & Data Science** - Python with the full ecosystem (PyTorch, TensorFlow, scikit-learn, pandas, numpy, etc.)
+- **Cloud & MLOps** - Google Cloud Platform native with extensive Vertex AI experience for ML deployment and operations
 - **Backend Development** - Java with Spring Boot for enterprise systems
 - **Full-Stack** - TypeScript and Node.js for modern web applications
 - **Supply Chain Systems** - 15+ years building mission-critical logistics and optimization software
 
 ## My Focus Areas
 
+- **Enterprise AI Systems** - Building, deploying, and maintaining AI systems for large-scale enterprise environments
 - **AI Risk Management** - Implementing frameworks like ISO 42001 and NIST's AI RMF in practice (ISO 42001 Certified Auditor)
 - **Responsible AI** - Building guardrails before stomping on the accelerator
 - **AI Governance** - Making governance genuinely beneficial, not just box-checking
