@@ -14,7 +14,7 @@ After years of evaluating LLMs and building evaluation frameworks in enterprise 
 - **Cloud & MLOps** - Google Cloud Platform native with extensive Vertex AI experience for ML deployment and operations
 - **Backend Development** - Java with Spring Boot for enterprise systems
 - **Full-Stack** - TypeScript and Node.js for modern web applications
-- **Supply Chain Systems** - 15+ years building mission-critical logistics and optimization software
+- **Supply Chain Systems** - 15+ years building systems in the warehousing and logistics industry
 
 ## My Focus Areas
 
