@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building MetaReason: Applying Statistics to LLM Confidence Scoring"
+title: "Building MetaReason"
 date: 2025-07-30
 description: "Introducing MetaReason, an open-source project that applies classical probability and statistics to quantify confidence in Large Language Models, moving beyond qualitative evaluation frameworks."
 tags: [AI, LLM, statistics, probability, MetaReason, confidence-scoring, machine-learning]
