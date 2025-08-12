@@ -1,7 +1,11 @@
 ---
 layout: post
-title: "Responsible AI"
+title: "Responsible AI: Building Guardrails Before Hitting the Accelerator"
 date: 2025-08-01
+description: "Exploring what Responsible AI means in practice, from ISO 42001 implementation to enterprise governance strategies that prioritize ethics, safety, and trustworthiness over speed."
+tags: [responsible-AI, AI-governance, ISO-42001, AI-ethics, enterprise-AI, risk-management]
+categories: [AI-Governance]
+excerpt: "Learn why responsible AI development requires building governance frameworks first, and how ISO 42001 helps enterprises move from tactical to strategic AI implementation."
 ---
 
 I'm a big believer in [Responsible AI](https://www.ibm.com/think/topics/responsible-ai). But I don't think most organizations are. In fact, I think most organizations are doing AI backward, building that "big idea" as fast as possible, putting off consequences for later. 

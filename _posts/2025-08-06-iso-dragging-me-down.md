@@ -1,7 +1,11 @@
 ---
 layout: post
-title: "ISO Dragging Me Down"
+title: "ISO 42001 Implementation: Avoiding Compliance Theater Pitfalls"
 date: 2025-08-06
+description: "Real-world experiences implementing ISO 42001 AI Management Systems, focusing on value-driven governance over compliance theater and building culture alongside systems."
+tags: [ISO-42001, AI-management-systems, compliance, audit-preparation, governance-culture, value-driven-compliance]
+categories: [AI-Governance]
+excerpt: "Navigate the challenges of ISO 42001 implementation by focusing on actual governance value rather than meaningless compliance theater."
 ---
 
 Sometimes frameworks like ISO 42001 are a drag. It can seem like all you do is check boxes for compliance, without adding any real value. This is the pit of despair for any management system. 

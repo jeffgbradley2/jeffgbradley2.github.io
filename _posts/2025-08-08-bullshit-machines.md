@@ -1,7 +1,11 @@
 ---
 layout: post
-title: "Bullshit Machines"
+title: "LLMs as Bullshit Machines: The Frankfurt Definition Applied to AI"
 date: 2025-08-08
+description: "Analyzing Large Language Models through Harry Frankfurt's definition of bullshit - systems with indifference to truth that optimize for plausible pattern continuation rather than accuracy."
+tags: [LLM-limitations, AI-criticism, hallucination, GPT-5, Frankfurt-bullshit, AI-evaluation, pattern-matching]
+categories: [AI-Analysis]
+excerpt: "Why Large Language Models are sophisticated bullshit machines according to Frankfurt's definition, and what this means for AI deployment in enterprise and government."
 ---
 
 OpenAI just released [GPT-5](https://openai.com/index/introducing-gpt-5/) and heralded its coming as the beginning of a new age, where everyone has a PhD in their pocket. Behold!
