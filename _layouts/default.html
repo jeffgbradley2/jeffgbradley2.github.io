@@ -61,6 +61,28 @@
         width: auto !important;
         float: none !important;
       }
+      
+      @media (max-width: 768px) {
+        .wrapper {
+          flex-direction: column !important;
+          gap: 15px !important;
+        }
+        header {
+          flex: none !important;
+          width: 100% !important;
+        }
+        .site-nav {
+          display: none !important;
+        }
+        .site-title {
+          text-align: center !important;
+          margin-bottom: 10px !important;
+        }
+        .site-description {
+          text-align: center !important;
+          margin: 0.5em 0 1em 0 !important;
+        }
+      }
     </style>
   </head>
   <body>
