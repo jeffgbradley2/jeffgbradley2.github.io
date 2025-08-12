@@ -8,7 +8,9 @@ As I was exploring the [Monte Carlo method](https://en.wikipedia.org/wiki/Monte_
 
 LHS is a statistical method for generating random samples, based on Monte Carlo. Unlike Monte Carlo, however, the samples are not purely random but instead are "stratified" across n dimensions, which is a fancy way of saying that they are evenly distributed. It's been around since the 70's, so no idea why they didn't teach it to me in college. 
 
-It turns out that LHS is commonly used for computer experiments, and this is how I came across it. For MetaReason, I need to generate many permutations of a test case, varied over multiple axis. My initial thought was Monte Carlo, but as I researched I found LHS. 
+It turns out that LHS is commonly used for computer experiments, and this is how I came across it. For MetaReason, I need to generate many permutations of a test case, varied over multiple axis. My initial thought was Monte Carlo, but as I researched I found LHS.
+
+## A Simple Implementation 
 
 Here is a simple example of LHS where we create n random samples from a uniform distribution using LHS.
 
@@ -52,6 +54,8 @@ def lhs_uniform(n, min_val, max_val):
 
 The comments take up more space than the code of course, since this is a simple example. However, it is helpful to see, nonetheless. Let's generate some random Monte Carlo samples and compare the results with LHS.
 
+## Comparing LHS to Monte Carlo
+
 ```python
 import matplotlib.pyplot as plt
 
@@ -80,6 +84,10 @@ plt.show()
 
 ![Monte Carlo vs LHS Sampling](/assets/images/2025-08-07-lhs-sampling.png)
 
+## Why LHS Matters for AI Testing
+
 LHS matters because it allows us to use far less samples, often 10x, than Monte Carlo for the same coverage. This matters when time or cost is a factor, as is the case with testing LLMs. And when testing LLM confidence across multiple parameters (temperature, prompt complexity, token length), LHS ensures I'm not accidentally clustering my tests in one corner of the parameter space.
+
+## Next Steps
 
 I've found LHS to be very useful in my work and am looking forward to exploring more advanced use cases and implementations. I'm particularly interested in the LHS implementation from [scikit-optimize](https://scikit-optimize.github.io/stable/modules/generated/skopt.sampler.Lhs.html?highlight=lhs#skopt.sampler.Lhs), as well as from [SciPy](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.qmc.LatinHypercube.html). 
