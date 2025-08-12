@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Jeff Bradley - AI Engineer, MetaReason Founder, ISO 42001 Expert
+title: Jeff Bradley - AI Engineer, MetaReason Founder
 description: "Principal AI Engineer and founder of MetaReason, specializing in AI governance, statistical methods for LLM evaluation, and responsible AI development. ISO 42001 certified with 15+ years experience building enterprise AI systems."
 ---
 
