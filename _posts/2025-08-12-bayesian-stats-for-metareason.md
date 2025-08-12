@@ -25,8 +25,8 @@ P(H|E) = P(E|H) × P(H) / P(E)
 ```
 
 Where:
-- **P(H|E)** is the posterior probability (probability of hypothesis H given evidence E)
-- **P(E|H)** is the likelihood (probability of evidence E given hypothesis H)  
+- **P(H\|E)** is the posterior probability (probability of hypothesis H given evidence E)
+- **P(E\|H)** is the likelihood (probability of evidence E given hypothesis H)  
 - **P(H)** is the prior probability (initial belief about hypothesis H)
 - **P(E)** is the marginal probability (total probability of evidence E)
 
