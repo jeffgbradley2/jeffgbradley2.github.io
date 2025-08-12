@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LLMs as Bullshit Machines: The Frankfurt Definition Applied to AI"
+title: "Bullshit Machines"
 date: 2025-08-08
 description: "Analyzing Large Language Models through Harry Frankfurt's definition of bullshit - systems with indifference to truth that optimize for plausible pattern continuation rather than accuracy."
 tags: [LLM-limitations, AI-criticism, hallucination, GPT-5, Frankfurt-bullshit, AI-evaluation, pattern-matching]

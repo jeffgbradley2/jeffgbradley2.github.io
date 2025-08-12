@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI Risk Management: Implementing the NIST AI RMF in Enterprise"
+title: "AI Risk Management"
 date: 2025-08-04
 description: "A comprehensive guide to implementing AI risk management using the NIST AI Risk Management Framework, covering governance, mapping, measuring, and managing AI risks in enterprise environments."
 tags: [AI-risk-management, NIST-AI-RMF, enterprise-AI, risk-assessment, AI-governance, compliance]

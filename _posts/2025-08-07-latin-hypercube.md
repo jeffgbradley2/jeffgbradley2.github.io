@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Latin Hypercube Sampling: Efficient Statistical Methods for LLM Testing"
+title: "Latin Hypercube Sampling"
 date: 2025-08-07
 description: "Learn how Latin Hypercube Sampling (LHS) provides superior space-filling properties for AI model testing, using 10x fewer samples than Monte Carlo methods while ensuring better parameter coverage."
 tags: [latin-hypercube-sampling, monte-carlo, statistical-methods, LLM-testing, sampling-algorithms, MetaReason, python]

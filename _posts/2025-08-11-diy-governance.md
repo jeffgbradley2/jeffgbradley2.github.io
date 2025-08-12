@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DIY AI Governance: Building Management Systems with Existing Tools"
+title: "DIY AI Governance"
 date: 2025-08-11
 description: "How to implement ISO 42001 AI Management Systems using everyday tools like Jira, Confluence, and spreadsheets instead of expensive compliance platforms, with real-world implementation examples."
 tags: [DIY-governance, AI-management-systems, Jira, Confluence, compliance-tools, docs-as-code, ISO-42001-implementation]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ISO 42001 Implementation: Avoiding Compliance Theater Pitfalls"
+title: "Avoiding ISO Compliance Theater"
 date: 2025-08-06
 description: "Real-world experiences implementing ISO 42001 AI Management Systems, focusing on value-driven governance over compliance theater and building culture alongside systems."
 tags: [ISO-42001, AI-management-systems, compliance, audit-preparation, governance-culture, value-driven-compliance]
