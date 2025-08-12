@@ -18,10 +18,10 @@ twitter:
   image: "/assets/images/2025-08-12-monty-hall.png"
 ---
 
-[Bayesian inference](https://en.wikipedia.org/wiki/Bayesian_inference) blow my mind all the time. Just the fact that Thomas Bayes derived his rule (now known as[ Bayes' Theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem)) derived the rule almost 300 years ago is crazy on its own. It has absolutely stood the test of time, and is as applicable now as ever in history. Here is the theorem, in all its glory:
+[Bayesian inference](https://en.wikipedia.org/wiki/Bayesian_inference) blow my mind all the time. Just the fact that Thomas Bayes derived his rule (now known as[ Bayes' Theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem)) almost 300 years ago is crazy on its own. It has absolutely stood the test of time, and is as applicable now as ever in history. Here is the theorem, in all its glory:
 
 ```
-P(H|E) = P(E|H) × P(H) / P(E)
+P(H\|E) = P(E\|H) × P(H) / P(E)
 ```
 
 Where:
