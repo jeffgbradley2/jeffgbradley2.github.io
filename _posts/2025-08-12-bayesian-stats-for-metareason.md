@@ -20,13 +20,15 @@ twitter:
 
 [Bayesian inference](https://en.wikipedia.org/wiki/Bayesian_inference) blow my mind all the time. Just the fact that Thomas Bayes derived his rule (now known as[ Bayes' Theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem)) derived the rule almost 300 years ago is crazy on its own. It has absolutely stood the test of time, and is as applicable now as ever in history. Here is the theorem, in all its glory:
 
-$$P(H|E) = \frac{P(E|H) \cdot P(H)}{P(E)}$$
+```
+P(H|E) = P(E|H) × P(H) / P(E)
+```
 
 Where:
-- $P(H|E)$ is the posterior probability (probability of hypothesis H given evidence E)
-- $P(E|H)$ is the likelihood (probability of evidence E given hypothesis H)
-- $P(H)$ is the prior probability (initial belief about hypothesis H)
-- $P(E)$ is the marginal probability (total probability of evidence E)
+- **P(H|E)** is the posterior probability (probability of hypothesis H given evidence E)
+- **P(E|H)** is the likelihood (probability of evidence E given hypothesis H)  
+- **P(H)** is the prior probability (initial belief about hypothesis H)
+- **P(E)** is the marginal probability (total probability of evidence E)
 
 But it isn't easy to grasp, even after a college education. For some reason, applying the theory to real world problem takes a lot of practice. I like word problems as much as anyone, but something about Bayesian problems can vex even me. 
 
