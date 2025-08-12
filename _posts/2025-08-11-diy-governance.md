@@ -14,6 +14,10 @@ It turns out that many consultants and providers think governance and management
 
 I haven't used them for anything. I decided early on (as they were dragging their feet, luckily) that I would implement an AIMS myself, to the exact requirements of the standard and customized to our business needs. Instead of using a fancy and expensive platform, I decided to depend on the existing tools we have, which are fantastic: Jira for project management, Confluence for documentation, and good old spreadsheets.
 
+Using Confluence, with its built-in version and access controls, made it easy to author all the policies and procedures I _actually_ needed. If I had it to do over, I would go with git instead, and that's what I'm doing with MetaReason, but Confluence is great. And using Jira for ticketing enables me to track the processes that are required. And for any data that needs to change frequently, I use Google Sheets. 
+
+This is how that looks in practice: Let's say our CEO identifies a new opportunity for an AI system. That initiates a process, per our governance framework, which requires a few steps. So I create an epic in Jira with stories for the Problem Definition, Impact Assessment, Risk Assessment, and System Design Specification, all part of our AI System Development Process. I have templates in Confluence for all of those, and link them directly to the Jira tickets. Jira then becomes a record of the process, while Confluence is the documentation, and everything has version control and auditability. 
+
 It's amazing what you can do with a ticket system, a wiki, a spreadsheet, and email. It seems that most people need a new app or tool to solve their problems, likely because they don't know what they are doing and won't take the time to learn.
 
 This experience proved to me that most people are simply "tool-chasing," looking for that next shiny application that's going to rule them all. I find it is much better to start simply. The compliance provider would force us into adopting policies and processes that don't fit our company, which we don't want or need, and which would at best slow us down.
