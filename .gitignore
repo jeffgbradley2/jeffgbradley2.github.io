@@ -18,3 +18,7 @@ Thumbs.db
 
 # Ruby
 Gemfile.lock
+
+# Claude Code
+CLAUDE.md
+.claude/
