@@ -17,6 +17,9 @@ Let's get this out of the way upfront: I use the absolute hell out of LLMs. I us
 
 I'm the reason climate change is accelerating. It's me.
 
+![This is fine meme](/assets/images/2025-08-13-this-is-fine.gif)
+*Me, contributing to AI energy consumption while the world burns*
+
 After years of using these things and evolving alongside them, my approach has become more refined. I've moved past the initial hype and developed a specialist's toolkit. I am, without a doubt, an LLM power user. This is what I've learned, focusing on how I use them for maximum productivity.
 
 ## The Golden Days of ChatGPT
