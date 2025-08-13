@@ -47,7 +47,13 @@ Currently, Claude is on version 4.1, Gemini is 2.5, and ChatGPT is on GPT-5 (alt
 
 Claude is my go-to, number one guy for all coding and engineering-related work. Claude Code is an incredible tool, now with sub-agents and model selectors. I regularly have four terminal windows with Claude Code firing away, each one spinning up sub-agents that are specialized in specific tasks, like refactoring or architecture or technical documentation. It is a true superpower.
 
+![Claude Code with multiple specialized agents running](/assets/images/2025-08-13-claude-code.png)
+*Multiple Claude Code terminals running specialized sub-agents for different development tasks*
+
 Gemini is my go-to for search, research, and learning. Its study mode is pretty damn good, and its ability to create flashcard and quiz applications right there in the chat interface is very useful to me. I like to take a paper or PDF, load it into NotebookLM, create a study guide and mind map, and then load that into Gemini to tutor and quiz me. It is a fantastic way to learn and study.
+
+![NotebookLM mind map of AI Management System](/assets/images/2025-08-13-notebooklm-mind-map.png)
+*Example of a NotebookLM-generated mind map for studying AI management systems - from research papers to visual study guide*
 
 ChatGPT is... well, still ChatGPT. I use it very little anymore, but when I do, it is more for an interactive journal. But I've kind of grown out of ChatGPT and find I have less and less use for it.
 
