@@ -41,7 +41,7 @@ And Gemini kept improving. While all the other LLM providers whine about data, t
 
 But I still didn't find a good daily use for Gemini, not like ChatGPT or Claude.
 
-##  My A-Team Toolkit
+##  My Specialist Toolkit
 
 Currently, Claude is on version 4.1, Gemini is 2.5, and ChatGPT is on GPT-5 (although OpenAI's models are going through a crisis). But I have found specialized use cases for each and am in a pretty comfortable routine.
 
