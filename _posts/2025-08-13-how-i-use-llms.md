@@ -64,6 +64,9 @@ ChatGPT is... well, still ChatGPT. I use it very little anymore, but when I do, 
 
 Building an AI Management System and getting ISO 42001 certified, I've used both Claude and Gemini to help draft policies and procedures and to help automate the grunt work of compliance. Having built ISO-certified management systems in the past, I can tell you that these LLMs are power tools for generating the many documents and records required by auditors and regulatory bodies. It has been so nice.
 
+![Gemini generating AI compliance documentation](/assets/images/2025-08-13-gemini.png)
+*Using Gemini to draft structured compliance documents like AI System Change Assessments - turning tedious paperwork into automated first drafts*
+
 Unlike most writing (like this blog), with compliance documents, it's fine to use an LLM to generate the first drafts. Policies, procedures, forms, instructions, and diagrams are technical and don't require personal touch or creativity. They are also often just for records, proof that you planned something or did something. This is the perfect example of avoiding 'compliance theater.' By using LLMs to handle the first drafts of tedious but necessary documentation, I can focus my energy on the actual governance and strategic thinking, which must remain an all-human task.
 
 ## Downsides
