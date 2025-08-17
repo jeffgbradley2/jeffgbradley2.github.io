@@ -132,7 +132,7 @@ Sequential evaluations are a bottleneck waiting to happen. As you stack up dozen
 
 *Costs can add up fast.* When you're sending large contexts for both the task and the evaluation, the tokens accumulate quickly. It is a very good idea to set a spending budget and cost alerts in your cloud platform. I do this with Google Cloud Platform, and in one instance where I failed to do so, I really wished I had.
 
-## From "Vibes" to Velocity
+## No More Vibe Checks
 
 Moving from subjective "vibe checks" to a systematic, automated evaluation framework is a mark of maturity for any team building with AI. Using a powerful LLM like Gemini 2.5 Pro as a judge doesn't just give you a score; it gives you confidence. It replaces ambiguity with data, enabling you to iterate faster, catch subtle regressions, and ultimately ship a better, safer product.
 
