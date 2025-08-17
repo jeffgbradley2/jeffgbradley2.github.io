@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Practitioners Guide to LLM-as-a-Judge"
-date: 2025-08-16
+date: 2025-08-15
 description: "Learn how to move from subjective 'vibe checks' to rigorous automated evaluation using LLMs as judges. Complete guide with practical examples and production tips."
 keywords: "LLM evaluation, AI testing, LLM as judge, Gemini 2.5 Pro, AI evaluation framework, automated testing, machine learning evaluation, AI quality assurance"
 categories: [AI, evaluation, testing]
