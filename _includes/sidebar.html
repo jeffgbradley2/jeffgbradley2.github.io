@@ -8,6 +8,12 @@
   {% endif %}
 
   <nav class="site-nav">
+    <h3>Navigation</h3>
+    <ul style="list-style: none; padding: 0; margin: 0 0 1.5em 0;">
+      <li style="margin-bottom: 0.5em;"><a href="{{ "/" | relative_url }}">Home</a></li>
+      <li style="margin-bottom: 0.5em;"><a href="{{ "/archive/" | relative_url }}">All Posts</a></li>
+    </ul>
+    
     <h3>Recent Posts</h3>
     <ul class="post-list">
       {% for post in site.posts limit:10 %}

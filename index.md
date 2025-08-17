@@ -37,7 +37,7 @@ I'm the maintainer and primary contributor to [metareason-core](https://github.c
 ## Recent Posts
 
 <ul>
-  {% for post in site.posts %}
+  {% for post in site.posts limit:10 %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
       <span style="color: #666; font-size: 0.9em;">— {{ post.date | date: "%B %d, %Y" }}</span>
@@ -47,6 +47,10 @@ I'm the maintainer and primary contributor to [metareason-core](https://github.c
     </li>
   {% endfor %}
 </ul>
+
+<p style="margin-top: 1.5em;">
+  <a href="/archive/" style="font-weight: 500;">→ View all posts</a>
+</p>
 
 ## Personal
 
