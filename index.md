@@ -4,7 +4,7 @@ title: Jeff Bradley - AI Engineer, MetaReason Founder
 description: "Principal AI Engineer and founder of MetaReason, specializing in AI governance, statistical methods for LLM evaluation, and responsible AI development."
 ---
 
-## Featured Posts
+# Featured Posts
 
 {% for post in site.posts %}
   {% if post.categories contains 'featured' %}
@@ -33,4 +33,3 @@ description: "Principal AI Engineer and founder of MetaReason, specializing in A
   <p style="margin-top: 1.5em;">
     <a href="/archive/" style="font-weight: 500;">→ View all posts</a>
   </p>
-</div>
