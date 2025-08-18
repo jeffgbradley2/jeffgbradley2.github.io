@@ -5,6 +5,7 @@ date: 2025-08-12
 description: "Exploring how Bayes' Theorem and Bayesian inference power MetaReason's confidence scoring system for LLMs, demonstrated through the classic Monty Hall problem."
 keywords: "Bayesian inference, MetaReason, LLM confidence scoring, Bayes theorem, Monty Hall problem, AI governance, statistical modeling"
 author: "Jeff Bradley"
+categories: [featured]
 canonical_url: "https://jeffgbradley2.github.io/2025/08/12/bayesian-stats-for-metareason.html"
 og:
   type: "article"
