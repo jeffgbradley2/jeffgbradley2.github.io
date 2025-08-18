@@ -6,7 +6,7 @@ description: "Principal AI Engineer and founder of MetaReason, specializing in A
 
 # Featured Posts
 
-{% for post in site.posts %}
+{% for post in site.posts | sort: 'date' %}
   {% if post.categories contains 'featured' %}
   <article style="margin-bottom: 3em; padding-bottom: 2em; border-bottom: 1px solid #e0e0e0;">
     <h3 style="margin-bottom: 0.5em;">
