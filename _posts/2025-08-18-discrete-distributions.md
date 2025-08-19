@@ -20,7 +20,7 @@ A uniform distribution is like saying “there is an equal chance of any of thes
 
 Here’s the mathematical equation for the probability mass function (PMF) of the discrete random variable:
 
-$P(X=k) = \frac{1}{n}$
+$$P(X=k) = \frac{1}{n}$$
 
 And here is some Python code that uses SciPy to sample from the uniform distribution of the six-sided die:
 
@@ -77,7 +77,7 @@ But first: for a problem to be a good candidate for a binomial distribution it m
 
 Here's the mathematical equation for the binomial distribution:
 
-$P(X=k) = \\binom{n}{k} p^k (1-p)^{n-k}$
+$$P(X=k) = \binom{n}{k} p^k (1-p)^{n-k}$$
 
 And here it is in python
 
@@ -124,7 +124,7 @@ Think of it like your email: you know your average hourly email rate, but the ev
 
 Here is the equation for the Poisson distribution:
 
-$P(X=k) = \\frac{\\lambda^k e^{-\\lambda}}{k\!}$
+$$P(X=k) = \frac{\lambda^k e^{-\lambda}}{k!}$$
 
 And here it is with SciPy:
 
