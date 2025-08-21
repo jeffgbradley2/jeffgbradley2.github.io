@@ -2,6 +2,7 @@
 layout: post
 title: 'I Deleted 20,000 Lines of AI-Generated Code'
 date: 2025-08-20
+categories: [featured]
 ---
 
 Last night I did something a little crazy. I deleted the entire MetaReason Core codebase. 
