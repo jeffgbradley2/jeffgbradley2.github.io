@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Why I Deleted 20,000 Lines of AI-Generated Code'
+title: 'I Deleted 20,000 Lines of AI-Generated Code'
 date: 2025-08-20
 ---
 
