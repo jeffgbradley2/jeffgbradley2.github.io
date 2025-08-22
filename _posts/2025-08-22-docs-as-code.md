@@ -6,7 +6,7 @@ title: Docs as Code
 
 Many compliance frameworks, even modern ones like ISO 42001 for AI management, seem to implicitly encourage a workflow built around Microsoft Word documents. When you build a management system, you must document what you're going to do, why you're doing it, and how you'll ensure it's done correctly. Documentation is the primary technology for human-to-human knowledge sharing, and for a management system, it's non-negotiable.
 
-Organizations codify their operations in policies and procedures. For many, these are boring documents; some people outright hate them. I understand the sentiment. Poorly implemented policies can make individuals feel restricted or encumbered—a topic for another day.
+Organizations codify their operations in policies and procedures. For many, these are boring documents; some people outright hate them. I understand the sentiment. Poorly implemented policies can make individuals feel restricted or encumbered. But that's a topic for another day.
 
 However, I firmly believe that high-quality, well-maintained policies and procedures are a mark of organizational maturity. They are essential for a team to be functional. What I don't understand is why these critical documents must be trapped in .docx files or siloed within a legacy compliance platform. This isn't the 1990s.
 
@@ -44,4 +44,4 @@ This transforms a time-consuming, often-dreaded compliance task into a highly-ef
 
 Adopting a "Docs as Code" methodology might seem like a significant shift, especially for teams outside of engineering. But the core components are already standard practice in the tech world. Version control is a modern requirement, git is the universal standard, and Markdown is a simple, ubiquitous format.
 
-This approach gives us phenomenal document control, auditable snapshots, transparent governance, and powerful automation—all using free, open-source tooling. It's time our documentation practices evolved to match the sophistication of the systems they govern. It's time to leave the 90s behind.
+This approach gives us phenomenal document control, auditable snapshots, transparent governance, and powerful automation, all using free, open-source tooling. It's time our documentation practices evolved to match the sophistication of the systems they govern. It's time to leave the 90s behind.
