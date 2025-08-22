@@ -24,7 +24,7 @@ I'm as impressed by these systems as the next person, but the truth is that thes
 
 The label "bullshit machines" may seem a little harsh, but it's technically accurate. Henry Frankfurt wrote a great essay titled [On Bullshit](https://www2.csudh.edu/ccauthen/576f12/frankfurt__harry_-_on_bullshit.pdf) that defines bullshit as that which has no regard for truth, neither lying nor truth-telling, but indifference to the distinction. As others have pointed out, this does indeed describe LLMs, which, in spite of what Elon says about Grok, are simply optimizing for plausible continuation of patterns.
 
-## Moving Forward
+## What Now
 
 I'm hopeful for the future of LLMs, and believe in their potential for good. I realize that they are language models, and what that means, and I've got daily first-hand experience with their power when it comes to tool use. But I'm also concerned that the huge gap between the capabilities being promoted and the reality of deployment are going to lead to significant problems as these systems reach broader adoption within business and government. Imagine a system like GPT-5 confidently fabricating compliance requirements in a regulatory filing, or hallucinating safety protocols in a manufacturing setting.
 
