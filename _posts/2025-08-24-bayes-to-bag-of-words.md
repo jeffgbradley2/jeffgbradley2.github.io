@@ -98,13 +98,13 @@ We can now measure the cosine of the angle between these two vectors to determin
 
 ## A Simple NLP Example with TF-IDF
 
-Now let's build on this by creating a more advanced search pipeline using TfidfVectorizer. This will:
+Now let's build on this by creating a more advanced search pipeline using TfidfVectorizer. As opposed to our simple bag of words which factors just the Term Frequency in each document (the count), TFIDF (Term Frequency - Inverse Document Frequency) factors in the count of documents the term appears in. The fewer overall documents the term appears in, the more important it is for the current document. 
 
-Preprocess the corpus we already loaded.
+Here is what our pipeline will do:
 
-Fit a TF-IDF model to the corpus.
-
-Perform a Q&A search and find the most relevant (similar) documents.
+1. Preprocess the corpus we already loaded.
+2. Fit a TF-IDF model to the corpus.
+3. Perform a keyword search and find the most relevant (similar) documents.
 
 ```python
 from sklearn.feature_extraction.text import TfidfVectorizer
