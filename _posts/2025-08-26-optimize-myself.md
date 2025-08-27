@@ -2,6 +2,7 @@
 layout: post
 date: 2025-08-26
 title: Optimize the Optimizer
+categories: [featured]
 ---
 
 We spend so much time optimizing code, systems, processes. Lately I took a step back and spent some time optimizing the optimizer, so to speak. Myself.
