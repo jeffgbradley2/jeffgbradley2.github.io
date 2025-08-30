@@ -20,7 +20,7 @@ The Prior: LDA starts with a belief about how topics and words are distributed, 
 
 The Likelihood: This is the evidence check. The model asks, "Given my prior beliefs about the topic recipes, how likely is it that they would generate the exact documents I see?"
 
-The Posterior: This is the goal. After observing the evidence (the text), the model calculates an updated probability—the posterior—of the most likely hidden topics and their word compositions.
+The Posterior: This is the goal. After observing the evidence (the text), the model calculates an updated probability (the posterior) of the most likely hidden topics and their word compositions.
 
 This approach is what makes LDA models so much more interpretable than the abstract vectors produced by LSA.
 
