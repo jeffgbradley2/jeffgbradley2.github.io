@@ -24,7 +24,7 @@ Every RAG system consists of a few common components that work together in a pip
 
 So, initially and whenever the corpus changes, documents are loaded and chunked, and embeddings are generated for every chunk. These embeddings are stored along with the chunks, serving as the index. When a user makes a query, the query itself is embedded, and then the most similar embeddings from the vector database are found via cosine similarity. The top k most similar chunks are the context sent to the LLM.
 
-[RAG Pipeline](/assets/images/2025-09-06-mermaid.png)
+![RAG Pipeline](/assets/images/2025-09-06-mermaid.png)
 
 ## My Implementation
 
