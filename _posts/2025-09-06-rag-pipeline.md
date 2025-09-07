@@ -115,7 +115,10 @@ I'll use the ollama python SDK and numpy to create normalized embeddings for the
 from ollama import embeddings
 import numpy as np
 
-vector_db = np.array([embeddings(model='nomic-embed-text', prompt=node.get_embedding_text())['embedding'] for node in document_nodes])
+vector_db = np.array([
+    embeddings(model='nomic-embed-text', prompt=node.get_embedding_text())['embedding'] 
+    for node in document_nodes])
+    
 vector_db_normalized = vector_db / np.linalg.norm(vector_db, axis=1, keepdims=True)
 ```
 
@@ -151,7 +154,13 @@ This process demonstrates one of the things I love the most about NLP, which is 
 ```python
 from sklearn.metrics.pairwise import cosine_similarity
 
-def hybrid_search(query, semantic_vectors_norm, tfidf_matrix, tfidf_vectorizer, semantic_weight=0.6, keyword_weight=0.4, top_k=5):
+def hybrid_search(query, 
+                semantic_vectors_norm, 
+                tfidf_matrix, 
+                tfidf_vectorizer, 
+                semantic_weight=0.6, 
+                keyword_weight=0.4, 
+                top_k=5):
     """
     Performs hybrid search combining semantic similarity and keyword matching.
     
