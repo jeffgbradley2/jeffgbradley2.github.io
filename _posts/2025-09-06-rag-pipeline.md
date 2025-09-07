@@ -24,47 +24,7 @@ Every RAG system consists of a few common components that work together in a pip
 
 So, initially and whenever the corpus changes, documents are loaded and chunked, and embeddings are generated for every chunk. These embeddings are stored along with the chunks, serving as the index. When a user makes a query, the query itself is embedded, and then the most similar embeddings from the vector database are found via cosine similarity. The top k most similar chunks are the context sent to the LLM.
 
-```mermaid
-graph TD
-    %% Indexing Phase (runs once/when corpus changes)
-    A[📄 Source Documents<br/>Markdown Files] --> B[🔗 Loading & Chunking<br/>Break into bite-sized pieces]
-    B --> C[🎯 Embedding<br/>Convert chunks to vectors]
-    C --> D[💾 Vector Database<br/>Store embeddings + chunks]
-    
-    %% Query Phase (runs for every user request)
-    E[❓ User Query] --> F[🎯 Query Embedding<br/>Convert query to vector]
-    F --> G[🔍 Retrieval<br/>Cosine similarity search]
-    D --> G
-    G --> H[📋 Top-k Similar Chunks<br/>Retrieved context]
-    H --> I[🤖 Generation<br/>LLM + context + query]
-    I --> J[✨ Final Answer]
-    
-    %% Phase labels
-    subgraph "Indexing Phase (One-time)"
-        A
-        B
-        C
-        D
-    end
-    
-    subgraph "Query Phase (Per Request)"
-        E
-        F
-        G
-        H
-        I
-        J
-    end
-    
-    %% Styling
-    classDef indexPhase fill:#e1f5fe,stroke:#01579b,stroke-width:2px
-    classDef queryPhase fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
-    classDef pillar fill:#fff3e0,stroke:#e65100,stroke-width:3px
-    
-    class A,B,C,D indexPhase
-    class E,F,G,H,I,J queryPhase
-    class B,C,G,I pillar
-```
+[RAG Pipeline](../assets/images/2025-09-06-mermaid.png)
 
 ## My Implementation
 
