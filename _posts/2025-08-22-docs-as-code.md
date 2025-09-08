@@ -12,7 +12,7 @@ However, I firmly believe that high-quality, well-maintained policies and proced
 
 ## Docs as Code
 
-There is a powerful alternative: the Docs-as-Code approach. This methodology involves treating documentation with the same tools and workflows that developers use for source code. As a technologist, I strive for efficiency and effectiveness, and I've found this to be a far more advanced and capable method for managing the documentation of an AI Management System (AIMS)—or any management system, for that matter.
+There is a powerful alternative: the Docs-as-Code approach. This methodology involves treating documentation with the same tools and workflows that developers use for source code. As a technologist, I strive for efficiency and effectiveness, and I've found this to be a far more advanced and capable method for managing the documentation of an AI Management System (AIMS), or any management system, for that matter.
 
 ## Git for Document Control
 
