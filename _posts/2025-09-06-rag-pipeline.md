@@ -8,7 +8,7 @@ One of the first production AI systems I deployed years ago was a chatbot. Back 
 
 This type of setup is pretty standard today, and it worked really well, especially for the low effort. However, as time went on I learned more and found that there really wasn't any magic behind what LlamaIndex was doing. At the same time, I found that the LlamaIndex.TS TypeScript library I used (for it was a NodeJS app written in TypeScript) was limiting me severely. There were conflicts with dependencies (dependency hell), and breaking changes as the library progressed from a RAG focus to an agent focus.
 
-The inability to easily upgrade other libraries, something I needed to do for continual improvement, became unacceptable. The changes to the framework would take more time to learn and implement than it would take me to roll my own. Given the additional benefits of creating my own RAG pipeline—such as more flexibility over chunking, easy hybrid search, and no more dependence on a third party—I decided to move forward with the project.
+The inability to easily upgrade other libraries, something I needed to do for continual improvement, became unacceptable. The changes to the framework would take more time to learn and implement than it would take me to roll my own. Given the additional benefits of creating my own RAG pipeline, such as more flexibility over chunking, easy hybrid search, and no more dependence on a third party, I decided to move forward with the project.
 
 ## The Four Pillars of RAG
 
@@ -118,7 +118,7 @@ import numpy as np
 vector_db = np.array([
     embeddings(model='nomic-embed-text', prompt=node.get_embedding_text())['embedding'] 
     for node in document_nodes])
-    
+
 vector_db_normalized = vector_db / np.linalg.norm(vector_db, axis=1, keepdims=True)
 ```
 
