@@ -201,8 +201,6 @@ Note the hyperparameters like the weights and top_k, which can be tuned as neede
 Now, when a query is submitted, we can call our hybrid search function and use the top indices to fetch the document nodes. 
 
 ```python
-# --- After the hybrid_search function ---
-# Example usage:
 query = "How do I configure the tokenizer?"
 top_indices, scores = hybrid_search(query, vector_db_normalized, tfidf_matrix, vectorizer)
 
