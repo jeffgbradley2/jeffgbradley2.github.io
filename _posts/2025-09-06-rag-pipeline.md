@@ -2,7 +2,7 @@
 layout: post
 date: 2025-09-06
 title: Hello RAG (and Goodbye LlamaIndex)
-tags: [featured]
+categories: [featured]
 ---
 
 One of the first production AI systems I deployed years ago was a chatbot. Back then, I didn't know much about Natural Language Processing or Semantic Analysis. I did some research and found LlamaIndex as a good option to create a Retrieval-Augmented Generation pipeline from markdown documents that provided the context to the chatbot.
