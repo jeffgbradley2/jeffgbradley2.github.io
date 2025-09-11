@@ -8,13 +8,13 @@ I learned of the man named Charlie Kirk today. Charlie was a famous friend of fa
 
 He was shot dead at the Utah Valley this afternoon, **violence** on his tongue.
 
-## Annunciation
+### Annunciation
 
 Children were shot in church a few weeks ago. Bullets through glass windows. 
 
 I wonder at the beautiful creatures they must have been.
 
-## Where all the good people at?
+### Where all the good people at?
 
 I once knew a good man. He was kind and true. He led me through the valley and I mourned his passing.
 
@@ -24,7 +24,7 @@ Am I?
 
 What is good in this world?
 
-## Charlie Kirk is Dead
+### Charlie Kirk is Dead
 
 Charlie Kirk died today, shot dead, violence on his last breath. 
 
