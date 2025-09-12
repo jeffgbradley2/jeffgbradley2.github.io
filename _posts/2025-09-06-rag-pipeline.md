@@ -29,11 +29,11 @@ So, initially and whenever the corpus changes, documents are loaded and chunked,
 
 ## My Implementation
 
-Since my production implementation was for a TypeScript app and belongs to the company I work for, I won't share that. Instead, I'll show a much more elegant Python version that leverages the wonderful scikit-learn package. Also, instead of using the OpenAI text-embedding-3-small model to create the embeddings, I'll use the nomic-embed-text open-source embedding model, which is just as good.
+Since my production implementation was for a TypeScript app and belongs to the company I work for, I won't share that. Instead, let's look at a much more elegant Python version that leverages the wonderful scikit-learn package. Also, instead of using the OpenAI text-embedding-3-small model to create the embeddings, let's use the nomic-embed-text open-source embedding model, which is just as good.
 
 ### Document Nodes
 
-My documents are markdown, and so there is a natural chunk that consists of each heading and the text content below it, up to the next heading. That is easy enough, but I want to include the surrounding context, like the text of the headings above the current heading. This is a graph problem, and so I've created a DocumentNode that has a reference to the parent node and can create the embedding text we want. This is where we gain the ability to easily augment our chunks now that I'm taking control over the process.
+My documents are markdown, and so there is a natural chunk that consists of each heading and the text content below it, up to the next heading. That is easy enough, but I want to include the surrounding context, like the text of the headings above the current heading. This is a graph problem, and so let's create a DocumentNode that has a reference to the parent node and can create the embedding text we want. This is where we gain the ability to easily augment our chunks now that I'm taking control over the process.
 
 ```python
 class DocumentNode:
@@ -58,7 +58,7 @@ class DocumentNode:
 
 ### Loading and Chunking
 
-I decided to use the python-markdown package to read the markdown into HTML elements, and then use BeautifulSoup to process the markup. I use a stack to manage the nodes: as I parse the document, I push new heading nodes onto the stack. If I encounter a heading of a lower or equal level, I pop the current node off, store it, and continue until I find the correct parent for the new node.
+Let's use the python-markdown package to read the markdown into HTML elements, and then use BeautifulSoup to process the markup. We'll use a stack to manage the nodes: as we parse the document, we push new heading nodes onto the stack. If we encounter a heading of a lower or equal level, we pop the current node off, store it, and continue until we find the correct parent for the new node.
 
 ```python
 import glob
@@ -110,7 +110,7 @@ for file in glob.glob('files/*.md'):
 
 ### Embedding
 
-I'll use the ollama python SDK and numpy to create normalized embeddings for the chunks. We need to normalize so that the length of the vectors doesn't improperly influence similarity scores. We can do that easily using numpy.linalg.norm.
+Let's use the ollama python SDK and numpy to create normalized embeddings for the chunks. We need to normalize so that the length of the vectors doesn't improperly influence similarity scores. We can do that easily using numpy.linalg.norm.
 
 ```python
 from ollama import embeddings
@@ -125,7 +125,7 @@ vector_db_normalized = vector_db / np.linalg.norm(vector_db, axis=1, keepdims=Tr
 
 ### Keyword Search
 
-I decided to augment the pipeline from just semantic embedding to include keyword search. This type of hybrid search is more advanced and results in better search results since it leverages the benefit of classical keyword search using Term Frequency-Inverse Document Frequency (TF-IDF) vectors and semantic embeddings.
+Let's augment the pipeline from just semantic embedding to include keyword search. This type of hybrid search is more advanced and results in better search results since it leverages the benefit of classical keyword search using Term Frequency-Inverse Document Frequency (TF-IDF) vectors and semantic embeddings.
 
 To accomplish that, we need to use the TfidfVectorizer from scikit-learn to vectorize the corpus. Note that TfidfVectorizer normalizes by default (L2 normalization), so we don't have to do that manually as we did with the embeddings.
 
@@ -213,6 +213,6 @@ for i, idx in enumerate(top_indices):
 
 ## Wrapping Up
 
-The pipeline above is really only a few lines of code, but it can be used to power any type of RAG or AI search application. I stored everything in memory in simple lists and matrices, and that will work for many applications. But I could easily store the vectors and document nodes/corpus in a vector database like ChromaDB or document database like MongoDB.
+The pipeline above is really only a few lines of code, but it can be used to power any type of RAG or AI search application. I stored everything in memory in simple lists and matrices, and that will work for many applications. But we could easily store the vectors and document nodes/corpus in a vector database like ChromaDB or document database like MongoDB.
 
  With a little understanding of semantic analysis and standard computer science techniques, we can easily replace bloated frameworks like LlamaIndex with our own implementations that give us more freedom and may even be more performant. And let's be honest, what software developer doesn't prefer to roll their own?
