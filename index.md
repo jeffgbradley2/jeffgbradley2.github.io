@@ -19,7 +19,7 @@ description: "Principal AI Engineer and founder of MetaReason, specializing in A
     </p>
     
     <div style="color: #333; line-height: 1.6;">
-      {{ post.content | strip_html | truncatewords: 120 }}
+      {{ post.content | strip_html | truncatewords: 50 }}
     </div>
     
     <p style="margin-top: 1em;">
