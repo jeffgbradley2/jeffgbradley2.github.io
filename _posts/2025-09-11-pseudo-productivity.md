@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2025-09-15
+date: 2025-09-11
 title: Pseudo Productive
 ---
 
