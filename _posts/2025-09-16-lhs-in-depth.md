@@ -4,7 +4,7 @@ date: 2025-09-16
 title: LatinHypercube Sampling In Depth
 ---
 
-Tonight I got home after work and sat down in my office to do a little work on MetaReason. It has been a couple weeks since I worked on the core. I went through the code, reviewing things, and landed on the implementation of LatinHypercube Sampling.
+Tonight I got home after work and sat down in my office to do a little work on MetaReason. It has been a couple weeks since I worked on the core. I went through the code, reviewing things, and landed on the implementation of [LatinHypercube Sampling](https://en.wikipedia.org/wiki/Latin_hypercube_sampling).
 
 It has been a while since I thought about LHS so I decided to do a deep dive. Let's take a look.
 
@@ -14,7 +14,7 @@ LatinHypercube sampling is a Monte Carlo technique of evenly sampling randomly f
 
 This sampling technique offers superior coverage and is very valuable for running experiments, like those I'm doing in MetaReason. 
 
-Here is a simple LHS implementation that uses the LatinHypercube class from scipy and compares to random sampling.
+Here is a simple LHS implementation that uses the LatinHypercube class from [Scipy.stats.qmc](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.qmc.LatinHypercube.html) and compares to random sampling.
 
 ```python
 
@@ -89,7 +89,7 @@ class LhsSampler:
 
 The LatinHypercube sampler from SciPy is excellent, but it only generates samples on a uniform [0, 1] grid. To be useful, we need to map these uniform points onto our desired statistical distributions, like a Normal or Beta distribution.
 
-This is the perfect job for the Percent Point Function (PPF), which is the inverse of the Cumulative Distribution Function (CDF). While a CDF takes a value and tells you its cumulative probability (e.g., "a value of X occurs 75% of the time"), the PPF does the opposite. It takes a probability (a value between 0 and 1) and returns the corresponding value from the distribution.
+This is the perfect job for the [Percent Point Function (PPF)](https://en.wikipedia.org/wiki/Quantile_function), which is the inverse of the [Cumulative Distribution Function (CDF)](https://en.wikipedia.org/wiki/Cumulative_distribution_function). While a CDF takes a value and tells you its cumulative probability (e.g., "a value of X occurs 75% of the time"), the PPF does the opposite. It takes a probability (a value between 0 and 1) and returns the corresponding value from the distribution.
 
 In our case, we can treat each uniform sample from our LHS as a percentile. By feeding these percentiles into the PPF of a target distribution, we transform our evenly spaced grid into an evenly spaced sample of that distribution's shape.
 
@@ -132,7 +132,7 @@ In our case, we can treat each uniform sample from our LHS as a percentile. By f
 
 While standard LHS provides good coverage, it doesn't guarantee that points are maximally spread out; you can still get unlucky and have a few points cluster together. To fix this, we can optimize our sample by generating several candidate sets and choosing the best one.
 
-We'll use a maximin approach. The goal is to find the sample set that maximizes the minimum distance between any two points. To score each candidate set, we need to calculate the distance between every single pair of points. While we could do this with a slow nested loop, SciPy offers a highly optimized function called scipy.spatial.distance.pdist (pairwise distance). It quickly computes the distances between all pairs of points in the set. The lowest of these distances is our score.
+We'll use a [maximin](https://search.r-project.org/CRAN/refmans/lhs/html/maximinLHS.html) approach. The goal is to find the sample set that maximizes the minimum distance between any two points. To score each candidate set, we need to calculate the distance between every single pair of points. While we could do this with a slow nested loop, SciPy offers a highly optimized function called scipy.spatial.distance.pdist (pairwise distance). It quickly computes the distances between all pairs of points in the set. The lowest of these distances is our score.
 
 We then generate a few candidate sample sets and keep the one with the highest score, ensuring our points are as far apart as possible.
 
