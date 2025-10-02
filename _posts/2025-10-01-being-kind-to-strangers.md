@@ -6,7 +6,7 @@ title: Being Kind to Strangers
 
 There's a guy who bartends at a local Kava bar. He works a day job at BMW and bartends some nights as a second job. Seems like a nice guy, but reserved.
 
-Tonight, he was at the bar, not working, when I pulled up and ordered a Kava. The bartender that night (a cool chick) asked me how I was, and I replied with something along the lines of "Don't feel great. Kind of dark times. A little down honestly."
+Tonight, he was at the bar, not working, when I pulled up and ordered a Kava. The bartender that night (a cool chick) asked me how I was, and I replied with "Don't feel great. Kind of dark times. A little down honestly."
 
 The guy (I won't say any names) perked up and looked at me. He looked sad. He said he'd been down too. 
 
