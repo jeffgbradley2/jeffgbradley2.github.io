@@ -4,7 +4,7 @@ date: 2025-10-01
 title: Being Kind to Strangers
 ---
 
-There's a guy that bartends at a local Kava bar. He works a day job at BMW and bartends some nights as a second job. Seems like a nice guy, but reserved.
+There's a guy who bartends at a local Kava bar. He works a day job at BMW and bartends some nights as a second job. Seems like a nice guy, but reserved.
 
 Tonight, he was at the bar, not working, when I pulled up and ordered a Kava. The bartender that night (a cool chick) asked me how I was, and I replied with something along the lines of "Don't feel great. Kind of dark times. A little down honestly."
 
