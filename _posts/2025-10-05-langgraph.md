@@ -196,11 +196,12 @@ Tool Calls:
   verify (call_RozIbhVSu4Osemor4ex689st)
  Call ID: call_RozIbhVSu4Osemor4ex689st
   Args:
-    state: {'messages': [{'content': 'Calculate (2 + 3) * 10 - 100 * 1.5 then verify your answer', 'type': 'human'}, {'content': 'First, (2 + 3) = 5. Then, 5 * 10 = 50. Next, 100 * 1.5 = 150. Finally, 50 - 150 = -100.', 'type': 'ai'}]}
+    state: {'messages': [{'content': 'Calculate (2 + 3) * 10 - 100 * 1.5 then verify your answer', 'type': 'human'}, 
+    {'content': 'First, (2 + 3) = 5. Then, 5 * 10 = 50. Next, 100 * 1.5 = 150. Finally, 50 - 150 = -100.', 'type': 'ai'}]}
 ================================= Tool Message =================================
 Name: verify
 
-{'messages': [AIMessage(content='Correct', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 74, 'prompt_tokens': 106, 'total_tokens': 180, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 64, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-5-mini-2025-08-07', 'system_fingerprint': None, 'id': 'chatcmpl-CR6CvS55dPufFE6Hr3rkJKh9I6eAN', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None}, id='run--417ae387-6edc-4f25-a1be-9978baf5fbe4-0', usage_metadata={'input_tokens': 106, 'output_tokens': 74, 'total_tokens': 180, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 64}})]}
+{'messages': [AIMessage(content='Correct', ...)]}
 ================================== Ai Message ==================================
 
 -100
@@ -256,8 +257,8 @@ for message in response['messages']:
 The full output of that is too long to display here, so here is the final message content:
 
 ```
-- 10:30 AM New York (America/New_York) = 11:30 PM Tokyo (Asia/Tokyo) — Tokyo is 13 hours ahead (same calendar day when New York is on EDT).
-- According to Anthropic’s blog, "Introducing Claude Haiku 4.5" was published on Oct 15, 2025. Source: https://www.anthropic.com/news/claude-haiku-4-5 (Anthropic blog).
+- 10:30 AM New York (America/New_York) = 11:30 PM Tokyo (Asia/Tokyo) ...
+- According to Anthropic’s blog, "Introducing Claude Haiku 4.5" was published on Oct 15, 2025. ...
 ```
 
 ## Wrapping Up
