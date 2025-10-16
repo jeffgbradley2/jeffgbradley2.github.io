@@ -90,7 +90,9 @@ verifier = ChatOpenAI(model="gpt-5-mini")
 def verify(state: MessagesState):
     """Verifies that the math is correct."""
     
-    sys_msg = SystemMessage("Verify that the math is correct. Return 'Correct' or 'Incorrect'. If incorrect, give the reason")
+    sys_msg = SystemMessage(
+        "Verify that the math is correct. Return 'Correct' or 'Incorrect'. If incorrect, give the reason"
+        )
     return {"messages": [verifier.invoke([sys_msg] + state['messages'])]}
 ```
 
@@ -106,7 +108,10 @@ llm = ChatOpenAI(model='gpt-4.1')
 llm_with_tools = llm.bind_tools(tools)
 
 
-sys_msg = SystemMessage("You are an expert at math and a helpful assistant. Always verify the final answer with your tool, and if it is incorrect, recalculate. Return just the final numeric answer.")
+sys_msg = SystemMessage(
+    """You are an expert at math and a helpful assistant. 
+    Always verify the final answer with your tool, and if it is incorrect, recalculate. 
+    Return just the final numeric answer.""")
 
 def assistant(state: MessagesState):
     return {"messages": [llm_with_tools.invoke([sys_msg] + state['messages'])]}
@@ -249,7 +254,9 @@ agent = create_react_agent("openai:gpt-5-mini", tools)
 The create_react_agent function abstracts away the graph-building boilerplate for this common pattern. Now, we just need to invoke it.
 
 ```python
-response = await agent.ainvoke({"messages": "Convert 10:30 am New York time to Tokyo time. Then tell me when Claude Haiku 4.5 released."})
+response = await agent.ainvoke({
+    "messages": "Convert 10:30 am New York time to Tokyo time. Then tell me when Claude Haiku 4.5 released."
+    })
 for message in response['messages']:
     message.pretty_print()
 ```
