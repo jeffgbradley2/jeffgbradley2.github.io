@@ -6,7 +6,7 @@ title: When to Listen and When to Lead
 
 A few weeks ago I wrote about how good it feels when engineers and operators get in a room and solve problems together. There's something magical about that partnership. But I've been thinking about something that can kill that magic fast: falling in love with your own idea.
 
-It's happened to me before. I get excited about a big vision, something transformative. A unified product. A revolutionary system. A big new thing! The idea is so good that I stop seeing it as one possible solution and start seeing it as the solution. The operators' messy real-world problems become "use cases" to plug into my grand vision.
+It's happened to me before. I get excited about a big vision, something transformative. A unified product. A revolutionary system. A big new thing! The idea is so good that I stop seeing it as one possible solution and start seeing it as _the_ solution. The operators' messy real-world problems become "use cases" to plug into my grand vision.
 
 That's when collaboration turns into a sales pitch.
 
