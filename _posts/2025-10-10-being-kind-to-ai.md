@@ -18,11 +18,11 @@ Conversational chatbots are similar mediums, but there is a subtle difference th
 
 ## The Habit We're Building
 
-As creatures of habit, every interaction shapes our default behaviors. By giving in to "being mean" to our AI assistants, this habit likely reinforces similar patterns in other digital mediums. Being mean to AI—whether blunt, rude, or hostile—builds a habit that will hurt others and ourselves. This doesn't do anyone any favors. 
+As creatures of habit, every interaction shapes our default behaviors. By giving in to "being mean" to our AI assistants, this habit likely reinforces similar patterns in other digital mediums. Being mean to AI, whether blunt, rude, or hostile, builds a habit that will hurt others and ourselves. This doesn't do anyone any favors. 
 
 I've noticed this in my own interactions with AI and have taken steps to counter it. Just like being mean to AI is building the "wrong" habit, practicing the habit of being patient, professional, kind to AI can build the "right" habit. 
 
-Like any bad habit, being short or rude with AI can be hard to break. But it is worth it. Practicing kindness with AI reinforces the weights in our own neural networks, and builds our mental muscle memory. Each kind text-based conversation with AI strengthens this pattern, making it more likely to manifest in our Slack messages, emails, Discord chats, and text threads—and hopefully in all our interactions.
+Like any bad habit, being short or rude with AI can be hard to break. But it is worth it. Practicing kindness with AI reinforces the weights in our own neural networks, and builds our mental muscle memory. Each kind text-based conversation with AI strengthens this pattern, making it more likely to manifest in our Slack messages, emails, Discord chats, and text threads, and hopefully in all our interactions.
 
 ## The Long View
 
