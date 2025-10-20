@@ -12,7 +12,7 @@ That's when collaboration turns into a sales pitch.
 
 ## Give Them Options
 
-It's a common debate I've encountered over the years when it comes to offering solutions: should we provide stakeholders a single, "best" recommendation or provide multiple options with tradeoffs? The push for a single option often feels wrong to me. 
+It's a common question I've encountered over the years when it comes to offering solutions: should we provide stakeholders a single, "best" recommendation or provide multiple options with tradeoffs? The push for a single option often feels wrong to me. 
 
 If you're a pilot briefing a mission, you don't show up with only one flight plan. You show the fast route with weather risks. The safer but longer route. Maybe a recon route to gather more intel first. You present the trade-offs and let the people funding the mission decide their risk tolerance.
 
