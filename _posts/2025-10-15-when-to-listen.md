@@ -40,6 +40,6 @@ But when that happens, the job changes. Someone has to be the professional skept
 
 We build the thing. But we also build the guardrails, the escape hatches, the measurement systems. We make sure the vision doesn't fly completely off course.
 
-That's the burden. Holding the tension between the executives' big bet and what's actually happening on the ground. Being excited about the vision, but staying honest about the risks.
+That's the burden. Holding that tension between the executives' big bet and what's actually happening on the ground. Being excited about the vision, but staying honest about the risks.
 
 Not always comfortable. But that's the job.
