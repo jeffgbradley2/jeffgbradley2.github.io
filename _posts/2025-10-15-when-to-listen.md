@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2025-10-15
-title: When to Listen and When to Lead
+title: Questions Are Better Than Answers
 ---
 
 A few weeks ago I wrote about how good it feels when engineers and operators get in a room and solve problems together. There's something magical about that partnership. But I've been thinking about something that can kill that magic fast: falling in love with your own idea.
