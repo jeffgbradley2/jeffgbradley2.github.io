@@ -99,7 +99,7 @@ plt.show()
 
 We can see that all chains quickly find a absorbing state. 
 
-![Gambler's Ruin Plots](../assets/images/2025-10-27-gamblers-ruin.png)
+![Gambler's Ruin Plots](/assets/images/2025-10-27-gamblers-ruin.png)
 
 ## Irreducibility
 
@@ -153,7 +153,7 @@ plt.axhline(y=frac_home, color='r', linestyle='--', label=f'Final Value ({frac_h
 plt.legend()
 plt.show()
 ```
-![Convergence Plot](../assets/images/2025-10-27-homepage.png)
+![Convergence Plot](/assets/images/2025-10-27-homepage.png)
 
 ## MCMC in MetaReason
 
