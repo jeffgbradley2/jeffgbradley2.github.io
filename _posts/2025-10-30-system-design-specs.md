@@ -73,9 +73,6 @@ type: "docs"
 - **Secondary**: [Supporting operational metric]
 - **Tertiary**: [Additional quality or efficiency metric]
 
-#### 1.4 AIMS Objectives
-[Reference which AIMS objectives this system supports (e.g., AI-002 for client value, AI-003 for operational efficiency, etc.). Link to relevant governance documentation.]
-
 ### 2. Requirements
 
 #### 2.1 Functional Requirements
@@ -176,15 +173,7 @@ graph LR
 - **Purpose**: [What this model does in the system]
 - **Rationale**: [Why this model was selected]
 
-#### 4.2 Prompt Engineering
-
-**System Prompts**: [Brief description of key system prompts and their purpose]
-
-**Prompt Security**: [How prompts prevent injection attacks and misuse]
-
-**Prompt Version Control**: [How prompts are managed and updated]
-
-#### 4.3 Model Limitations
+#### 4.2 Model Limitations
 
 [Document known limitations of the AI models used, including:]
 - Context window constraints
