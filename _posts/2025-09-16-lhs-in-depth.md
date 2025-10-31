@@ -1,20 +1,20 @@
 ---
 layout: post
 date: 2025-09-16
-title: LatinHypercube Sampling In Depth
+title: Latin Hypercube Sampling In Depth
 ---
 
-Tonight I got home after work and sat down in my office to do a little work on MetaReason. It has been a couple weeks since I worked on the core. I went through the code, reviewing things, and landed on the implementation of [LatinHypercube Sampling](https://en.wikipedia.org/wiki/Latin_hypercube_sampling).
+Tonight I got home after work and sat down in my office to do a little work on MetaReason. It has been a couple weeks since I worked on the core. I went through the code, reviewing things, and landed on the implementation of [Latin Hypercube Sampling](https://en.wikipedia.org/wiki/Latin_hypercube_sampling).
 
 It has been a while since I thought about LHS so I decided to do a deep dive. Let's take a look.
 
 ## High Level LHS
 
-LatinHypercube sampling is a Monte Carlo technique of evenly sampling randomly from a distribution or sample space. Where normal random sampling is like throwing random darts over a space, LHS is like playing Sudoku, where a square is evenly divided into a grid. LHS ensures that a sample is placed in every single row and column, kind of like bins. That is how I implemented it in the simple LHS sampler in a previous post. 
+Latin Hypercube sampling is a Monte Carlo technique of evenly sampling randomly from a distribution or sample space. Where normal random sampling is like throwing random darts over a space, LHS is like playing Sudoku, where a square is evenly divided into a grid. LHS ensures that a sample is placed in every single row and column, kind of like bins. That is how I implemented it in the simple LHS sampler in a previous post. 
 
 This sampling technique offers superior coverage and is very valuable for running experiments, like those I'm doing in MetaReason. 
 
-Here is a simple LHS implementation that uses the LatinHypercube class from [Scipy.stats.qmc](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.qmc.LatinHypercube.html) and compares to random sampling.
+Here is a simple LHS implementation that uses the Latin Hypercube class from [Scipy.stats.qmc](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.qmc.LatinHypercube.html) and compares to random sampling.
 
 ```python
 
@@ -87,7 +87,7 @@ class LhsSampler:
 
 ### Transforming to a Distribution
 
-The LatinHypercube sampler from SciPy is excellent, but it only generates samples on a uniform [0, 1] grid. To be useful, we need to map these uniform points onto our desired statistical distributions, like a Normal or Beta distribution.
+The Latin Hypercube sampler from SciPy is excellent, but it only generates samples on a uniform [0, 1] grid. To be useful, we need to map these uniform points onto our desired statistical distributions, like a Normal or Beta distribution.
 
 This is the perfect job for the [Percent Point Function (PPF)](https://en.wikipedia.org/wiki/Quantile_function), which is the inverse of the [Cumulative Distribution Function (CDF)](https://en.wikipedia.org/wiki/Cumulative_distribution_function). While a CDF takes a value and tells you its cumulative probability (e.g., "a value of X occurs 75% of the time"), the PPF does the opposite. It takes a probability (a value between 0 and 1) and returns the corresponding value from the distribution.
 
