@@ -50,9 +50,9 @@ Start with a modern, compact design suitable for enterprise users whose main foc
 
 With just that prompt, Claude output the following, which is interactive. I can create new tickets, view messages and carriers, and search.
 
-<p align="center"><img src="/assets/images/2025-11-05-mockup1.png" alt="ShipmentHub Tickets Dashboard" width="60%"></p>
+![ShipmentHub Tickets Dashboard](/assets/images/2025-11-05-mockup1.png)
 
-<p align="center"><img src="/assets/images/2025-11-05-mockup2.png" alt="ShipmentHub UI Mockup - Alternative View" width="60%"></p>
+![ShipmentHub UI Mockup - Alternative View](/assets/images/2025-11-05-mockup2.png)
 
 This is pretty incredible to me, especially since it produced it in under a minute. 
 
