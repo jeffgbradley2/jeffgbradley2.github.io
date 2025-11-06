@@ -37,7 +37,11 @@ Take the example below. Given the following prompt, Claude Sonnet 4.5 produced a
 ```
 You are an expert UI/UX designer. Your task is to create a mockup for me. We'll iterate on it until happy, then create a style guide. 
 
-The system we are designing the UI for is an enterprise application for monitoring shipments. The intended users are brokers who schedule and coordinate shipments on behalf of their clients. Users expect a modern, sleek interface, with efficient information architecture.
+The system we are designing the UI for is an enterprise application for monitoring shipments. 
+
+The intended users are brokers who schedule and coordinate shipments on behalf of their clients. 
+
+Users expect a modern, sleek interface, with efficient information architecture.
 
 The features are:
 
