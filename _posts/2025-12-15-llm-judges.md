@@ -5,7 +5,7 @@ date: 2025-12-15
 tags: [llms, engineering]
 ---
 
-You've just tweaked a prompt or fine-tuned a model. You run a test, and the output looks pretty good, the test passes. But is it actually better? What happens if the prompt varies a little? This situation should be familiar to any AI practitioner.
+You tweak a prompt or fine-tuned a model. You run a test, and the output looks pretty good, the test passes. But is it actually better? What happens if the prompt varies a little? This is a familiar situation to AI practitioners.
 
 In practice, many shops begin by evaluating their LLM apps on "vibes." I know I did, full transparency. There's nothing wrong with that for initial exploration, and I’m not downplaying the role of competent human evaluators in enterprise pipelines. But vibe-checking isn't scalable, and it isn't objective. How do you prove that a change resulted in a measurable improvement?
 
