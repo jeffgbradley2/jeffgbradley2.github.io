@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Practitioners Guide to LLM-as-a-Judge"
-date: 2025-08-15
+date: 2025-12-15
 tags: [llms, engineering]
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Docs as Code"
-date: 2025-08-21
+date: 2025-12-21
 tags: [engineering, ai-governance, productivity]
 ---
 

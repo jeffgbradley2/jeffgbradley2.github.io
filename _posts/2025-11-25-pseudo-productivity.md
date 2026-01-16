@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pseudo Productive"
-date: 2025-09-11
+date: 2025-11-25
 tags: [productivity, career]
 ---
 
