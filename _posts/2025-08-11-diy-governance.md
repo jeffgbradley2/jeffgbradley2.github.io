@@ -2,10 +2,7 @@
 layout: post
 title: "DIY AI Governance"
 date: 2025-08-11
-description: "How to implement ISO 42001 AI Management Systems using everyday tools like Jira, Confluence, and spreadsheets instead of expensive compliance platforms, with real-world implementation examples."
-tags: [DIY-governance, AI-management-systems, Jira, Confluence, compliance-tools, docs-as-code, ISO-42001-implementation]
-categories: [AI-Governance, Tools]
-excerpt: "Build effective AI governance systems using tools you already have - Jira, Confluence, and spreadsheets - instead of expensive compliance platforms."
+tags: [ai-governance, productivity, engineering]
 ---
 
 When you start building a management system, such as an [AI Management System](https://www.iso.org/artificial-intelligence/ai-management-systems) for [ISO 42001](https://www.iso.org/standard/42001) compliance, you'll find no shortage of consultants and platforms eager to do the work for you. They all promise to do it "just right," and they can make it sound like you'd be crazy to go it alone, implementing a governance framework from scratch with simple, readily available tools.

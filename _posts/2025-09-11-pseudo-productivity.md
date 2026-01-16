@@ -1,7 +1,8 @@
 ---
 layout: post
+title: "Pseudo Productive"
 date: 2025-09-11
-title: Pseudo Productive
+tags: [productivity, career]
 ---
 
 A few years ago, I read "Deep Work" by Cal Newport. In it, Newport introduced me to the concept of "pseudo-work," a plague on modern knowledge workers. I recently started his newer book, "Slow Productivity," where he expands on this with the idea of "pseudo-productivity."

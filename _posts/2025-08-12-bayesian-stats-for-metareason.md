@@ -2,21 +2,7 @@
 layout: post
 title: "Bayesian Modeling In MetaReason"
 date: 2025-08-12
-description: "Exploring how Bayes' Theorem and Bayesian inference power MetaReason's confidence scoring system for LLMs, demonstrated through the classic Monty Hall problem."
-keywords: "Bayesian inference, MetaReason, LLM confidence scoring, Bayes theorem, Monty Hall problem, AI governance, statistical modeling"
-author: "Jeff Bradley"
-categories: [featured]
-canonical_url: "https://jeffgbradley2.github.io/2025/08/12/bayesian-stats-for-metareason.html"
-og:
-  type: "article"
-  title: "Bayesian Modeling In MetaReason"
-  description: "Exploring how Bayes' Theorem and Bayesian inference power MetaReason's confidence scoring system for LLMs"
-  image: "/assets/images/2025-08-12-monty-hall.png"
-twitter:
-  card: "summary_large_image"
-  title: "Bayesian Modeling In MetaReason"
-  description: "Exploring how Bayes' Theorem and Bayesian inference power MetaReason's confidence scoring system for LLMs"
-  image: "/assets/images/2025-08-12-monty-hall.png"
+tags: [metareason, statistics]
 ---
 
 [Bayesian inference](https://en.wikipedia.org/wiki/Bayesian_inference) blow my mind all the time. Just the fact that Thomas Bayes derived his rule (now known as[ Bayes' Theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem)) almost 300 years ago is crazy on its own. It has absolutely stood the test of time, and is as applicable now as ever in history. Here is the theorem, in all its glory:

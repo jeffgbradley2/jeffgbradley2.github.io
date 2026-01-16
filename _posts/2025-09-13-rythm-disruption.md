@@ -1,7 +1,8 @@
 ---
 layout: post
+title: "One Night Out Wrecked My Good Habits"
 date: 2025-09-13
-title: One Night Out Wrecked My Good Habits
+tags: [personal, productivity]
 ---
 
 Over the last couple months I've gotten into a nice rhythm of waking early, studying, exercising, working, then studying or working on side projects into the evening, all while maintaining relationships. I've been really happy, because I'm the type of person for whom a disciplined schedule where I make progress in life goals while living simply each day is happiness. 

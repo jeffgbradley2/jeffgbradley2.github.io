@@ -1,7 +1,8 @@
 ---
 layout: post
+title: "First MetaReason Run"
 date: 2025-10-25
-title: First MetaReason Run
+tags: [metareason, engineering]
 ---
 
 Well, it's taken a while to get back to running pipelines, but I got there. The first MetaReason run, with my own hand-written code (vs all the AI generated code I deleted). 

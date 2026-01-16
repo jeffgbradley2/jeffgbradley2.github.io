@@ -2,15 +2,7 @@
 layout: post
 title: "How I Use LLMs"
 date: 2025-08-13
-description: "An honest look at how I've evolved as an LLM power user, from early ChatGPT adoption to specialized workflows with Claude, Gemini, and AI coding tools for software development and compliance automation."
-categories: [AI, LLMs, Productivity]
-tags: [ChatGPT, Claude, Gemini, AI tools, software development, productivity, compliance automation, responsible AI, coding tools, NotebookLM]
-author: Jeff Bradley
-seo:
-  type: BlogPosting
-  canonical_url: "https://jeffgbradley2.github.io/ai/llms/productivity/2025/08/13/how-i-use-llms.html"
-  keywords: "LLM power user, AI tools productivity, Claude coding, Gemini research, ChatGPT evolution, AI compliance automation, responsible AI usage"
-excerpt: "After years of using LLMs and evolving alongside them, I've become a true AI power user. Here's what I've learned about specialized workflows with Claude for coding, Gemini for research, and automating compliance work."
+tags: [llms, productivity]
 ---
 
 Let's get this out of the way upfront: I use the absolute hell out of LLMs. I use them every single day, for work, for study, for research. And I use (or have used) all of the big players: Claude, Gemini, Llama, and of course, ChatGPT.

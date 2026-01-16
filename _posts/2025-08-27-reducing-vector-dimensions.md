@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Finding Trolls with Linear Discriminant Analysis
+title: "Finding Trolls with Linear Discriminant Analysis"
 date: 2025-08-27
+tags: [nlp]
 ---
 
 Natural language text is rich with meaning. While term frequency and inverse document frequency (TFIDF) can be used to surprisingly good results, it still falls far short of true meaning. For example, term frequency based similarity will find the following two "utterances" quite dissimilar, when in reality, they have very similar meaning.

@@ -1,7 +1,8 @@
 ---
 layout: post
+title: "Being Kind to AI"
 date: 2025-10-10
-title: Being Kind to AI
+tags: [llms, personal]
 ---
 
 Sometimes I'm too blunt with people. People, and more recently, AI.

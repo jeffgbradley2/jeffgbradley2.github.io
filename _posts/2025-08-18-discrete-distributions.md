@@ -1,7 +1,8 @@
 ---
 layout: post
-title: 'Intro to Discrete Distributions'
+title: "Intro to Discrete Distributions"
 date: 2025-08-18
+tags: [statistics]
 ---
 
 Ever wondered about the math behind flipping a coin, rolling a die, or predicting how many emails you’ll get in the next hour? The answer to that is **random variables**. Bayesian modeling, and much of probability, is all about random variables.

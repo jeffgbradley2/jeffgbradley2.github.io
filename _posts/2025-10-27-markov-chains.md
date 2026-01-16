@@ -1,7 +1,8 @@
 ---
 layout: post
+title: "Markov Chains"
 date: 2025-10-27
-title: Markov Chains
+tags: [statistics, metareason]
 ---
 
 Bayesian modeling plays a big role in MetaReason, where it's used as part of LLM evaluation to calculate a high density interval for the "true" score. 

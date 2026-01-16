@@ -1,7 +1,8 @@
 ---
 layout: post
+title: "Back to Binomial Basics"
 date: 2025-09-29
-title: Back to Binomial Basics
+tags: [statistics]
 ---
 
 Sometimes it's good to get back to basics. Having spent months deep in Bayesian modeling and statistics, it felt like a good time to revisit a foundational topic. This gave me an opportunity to write some simple but fundamental probability code.

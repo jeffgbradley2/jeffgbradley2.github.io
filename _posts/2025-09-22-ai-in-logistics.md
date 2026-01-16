@@ -1,7 +1,8 @@
 ---
 layout: post
+title: "AI Agents, Spreadsheets, and Logistics"
 date: 2025-09-22
-title: AI Agents, Spreadsheets, and Logistics
+tags: [llms, engineering, career]
 ---
 
 I've worked as a software engineer in the logistics industry for a long time, over 17 years. It feels like my whole career, really.

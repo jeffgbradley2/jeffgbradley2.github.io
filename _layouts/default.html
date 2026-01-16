@@ -1,90 +1,34 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title | default: site.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <style>
-      .post-list {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-      }
-      .post-list li {
-        margin-bottom: 0.8em;
-        line-height: 1.3;
-      }
-      .post-list a {
-        display: block;
-        font-size: 0.95em;
-        text-decoration: none;
-        color: #267CB9;
-      }
-      .post-list a:hover {
-        text-decoration: underline;
-      }
-      .post-date {
-        display: block;
-        font-size: 0.8em;
-        color: #666;
-        margin-top: 0.2em;
-      }
-      .site-nav h3 {
-        margin-top: 2em;
-        margin-bottom: 0.5em;
-        font-size: 1.1em;
-        color: #333;
-      }
-      .site-description {
-        font-size: 0.9em;
-        color: #555;
-        margin: 1em 0;
-      }
-      .byline:empty, 
-      .post-meta .author:empty {
-        display: none;
-      }
-      .wrapper {
-        max-width: 900px !important;
-        display: flex !important;
-        align-items: flex-start !important;
-        gap: 20px !important;
-      }
-      header {
-        flex: 0 0 250px !important;
-        position: static !important;
-      }
-      section {
-        flex: 1 !important;
-        width: auto !important;
-        float: none !important;
-      }
 
-      @media (max-width: 1024px) {
-        .wrapper {
-          flex-direction: column !important;
-          gap: 15px !important;
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description | strip_html | truncatewords: 50 }}">
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+
+    <!-- Theme initialization (prevents flash) -->
+    <script>
+      (function() {
+        var theme = localStorage.getItem('theme');
+        if (theme === 'light') {
+          document.documentElement.setAttribute('data-theme', 'light');
         }
-        header {
-          flex: none !important;
-          width: 100% !important;
-        }
-        .site-nav {
-          display: none !important;
-        }
-        .site-title {
-          text-align: center !important;
-          margin-bottom: 10px !important;
-        }
-        .site-description {
-          text-align: center !important;
-          margin: 0.5em 0 1em 0 !important;
-        }
-      }
-    </style>
-    <!-- MathJax for rendering mathematical equations -->
+      })();
+    </script>
+
+    <!-- MathJax for mathematical equations -->
     <script>
       MathJax = {
         tex: {
@@ -96,18 +40,19 @@
     </script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   </head>
+
   <body>
-    <div class="wrapper">
-      {% include sidebar.html %}
-      <section>
+    <div class="site-wrapper">
+      {% include header.html %}
+
+      <main class="site-content">
         {{ content }}
-      </section>
-      <footer>
-        {% if site.github.is_project_page %}
-          <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-      </footer>
+      </main>
+
+      {% include footer.html %}
     </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+
+    <!-- Main JavaScript -->
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
   </body>
 </html>

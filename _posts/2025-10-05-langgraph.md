@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2025-10-5
-title: LangGraph Makes Agents Easy
+title: "LangGraph Makes Agents Easy"
+date: 2025-10-05
+tags: [llms, engineering]
 ---
 
 Recently, I wrote about how LlamaIndex.TS (the TypeScript version) became a pain to maintain. It was the first framework I used professionally for LLMs, and it worked great for Retrieval-Augmented Generation (RAG) at the time. It probably still does.

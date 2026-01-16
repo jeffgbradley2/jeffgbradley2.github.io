@@ -1,3 +1,39 @@
 title: Jeff Bradley
-description: Exploring, governing, and quantifying AI
-theme: jekyll-theme-minimal
+description: Engineering, AI, and life
+url: ""
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Sass configuration
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Exclude files from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CLAUDE.md
+  - vendor
+
+# Default frontmatter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Social links (used in footer)
+social:
+  github: metareason-ai
+  linkedin: jeff-bradley-b66266275
+  email: jeff@metareason.ai

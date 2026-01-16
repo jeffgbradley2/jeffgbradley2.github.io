@@ -1,7 +1,8 @@
 ---
 layout: post
+title: "Being Kind to Strangers"
 date: 2025-10-01
-title: Being Kind to Strangers
+tags: [personal]
 ---
 
 There's a guy who bartends at a local Kava bar. He works a day job at BMW and bartends some nights as a second job. Seems like a nice guy, but reserved.

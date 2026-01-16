@@ -1,7 +1,8 @@
 ---
 layout: post
+title: "Pandas Power"
 date: 2025-09-15
-title: Pandas Power
+tags: [productivity, nlp]
 ---
 
 Pandas is powerful. In fact, it's so powerful that I routinely use it instead of Excel for even simple analysis.
