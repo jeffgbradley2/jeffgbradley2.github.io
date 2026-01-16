@@ -7,7 +7,7 @@
 // =============================================================================
 
 .hero {
-  margin-bottom: var(--space-20);
+  margin-bottom: var(--space-12);
   max-width: 800px;
 }
 
@@ -788,6 +788,11 @@
 .about-intro .highlight,
 .hero .highlight {
   color: var(--accent);
+  background: none;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
 }
 
 .about-section {

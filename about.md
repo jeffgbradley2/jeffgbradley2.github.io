@@ -6,8 +6,8 @@ permalink: /about/
 ---
 
 <div class="about-intro">
-  <h1>Hi, I'm <span class="highlight">Jeff Bradley</span></h1>
-  <p>My friends call me Field. I'm a Principal AI Engineer with over 15 years of software engineering experience, now focused exclusively on AI/ML. I build AI systems and frameworks, lead AI strategy, and I'm deeply interested in the evaluation and development of responsible, trustworthy AI systems.</p>
+  <h1>Hello, World.</h1>
+  <p>I'm <span class="highlight">Jeff</span>, but my friends call me Field. I'm a Principal AI Engineer with over 15 years of software engineering experience, now focused exclusively on AI/ML. I build AI systems and frameworks, lead AI strategy, and I'm deeply interested in the evaluation and development of responsible, trustworthy AI systems.</p>
   <p>I'm also the founder of <a href="https://github.com/metareason-ai" class="highlight">MetaReason</a>, where I'm working to quantify AI confidence through rigorous statistical methods and modern NLP techniques.</p>
 </div>
 
