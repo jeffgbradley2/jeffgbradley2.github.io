@@ -8,8 +8,47 @@ permalink: /about/
 <div class="about-intro">
   <h1>Hi, I'm <span class="highlight">Jeff Bradley</span></h1>
   <p>My friends call me Field. I'm a Principal AI Engineer with over 15 years of software engineering experience, now focused exclusively on AI/ML. I build AI systems and frameworks, lead AI strategy, and I'm deeply interested in the evaluation and development of responsible, trustworthy AI systems.</p>
-  <p>I'm the founder of <a href="https://github.com/metareason-ai" class="highlight">MetaReason</a>, where I'm working to quantify AI confidence through rigorous statistical methods and modern NLP techniques.</p>
+  <p>I'm also the founder of <a href="https://github.com/metareason-ai" class="highlight">MetaReason</a>, where I'm working to quantify AI confidence through rigorous statistical methods and modern NLP techniques.</p>
 </div>
+
+<section class="about-section">
+  <h2 class="about-section-header">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+      <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+    </svg>
+    Rygen <span class="section-label">At Work</span>
+  </h2>
+
+  <div class="experience-timeline">
+    <div class="experience-item">
+      <div class="experience-dot"></div>
+      <div class="experience-header">
+        <span class="experience-role">AI for Logistics Operations</span>
+        <span class="experience-meta">Principal AI Engineer</span>
+      </div>
+      <p class="experience-desc">I've been in logistics software for 17 years. These days I build AI systems that automate the repetitive stuff logistics professionals deal with: shipment tracking, rate sheet updates, carrier lookups. The industry still runs on spreadsheets and phone calls. We're changing that with agents that work alongside humans.</p>
+    </div>
+
+    <div class="experience-item">
+      <div class="experience-dot"></div>
+      <div class="experience-header">
+        <span class="experience-role">Agentic AI Systems</span>
+        <span class="experience-meta">LangGraph, MCP, Multi-Agent</span>
+      </div>
+      <p class="experience-desc">I design and build agentic workflows that handle complex, multi-step processes on their own. These agent swarms integrate with existing business processes: reading emails, updating spreadsheets, querying carrier systems. No need to overhaul how things work.</p>
+    </div>
+
+    <div class="experience-item">
+      <div class="experience-dot"></div>
+      <div class="experience-header">
+        <span class="experience-role">AI Governance & ISO 42001</span>
+        <span class="experience-meta">AIMS Implementation</span>
+      </div>
+      <p class="experience-desc">I built our AI Management System from scratch. No expensive compliance platforms, just Jira, Confluence, and git. I lead internal audits, risk assessments, and impact assessments. I push back on compliance theater in favor of governance that actually adds value.</p>
+    </div>
+  </div>
+</section>
 
 <section class="about-section">
   <h2 class="about-section-header">
@@ -17,17 +56,17 @@ permalink: /about/
       <circle cx="12" cy="12" r="10"></circle>
       <polyline points="12 6 12 12 16 14"></polyline>
     </svg>
-    What I'm Building
+    MetaReason <span class="section-label">At Play</span>
   </h2>
 
   <div class="experience-timeline">
     <div class="experience-item">
       <div class="experience-dot"></div>
       <div class="experience-header">
-        <span class="experience-role">MetaReason</span>
-        <span class="experience-meta">2024 - Present</span>
+        <span class="experience-role">Quantifying AI Confidence</span>
+        <span class="experience-meta">Founder</span>
       </div>
-      <p class="experience-desc">After years of evaluating LLMs and building evaluation frameworks in enterprise settings, I've seen firsthand how difficult it is to create consistently trustworthy AI systems. MetaReason is my vision for bringing classical probability and statistics to bear on this problem—an Open Source, Open Governance approach to AI evaluation that goes beyond qualitative measures.</p>
+      <p class="experience-desc">After years of evaluating LLMs and building evaluation frameworks in enterprise settings, I've seen firsthand how hard it is to create consistently trustworthy AI systems. MetaReason is my attempt to bring classical probability and statistics to bear on this problem. Open Source, Open Governance, and hopefully beyond the qualitative hand-waving.</p>
     </div>
 
     <div class="experience-item">
@@ -57,8 +96,8 @@ permalink: /about/
       <p>Building, deploying, and maintaining AI systems at scale with production-grade reliability.</p>
     </div>
     <div class="principle-card">
-      <h3>AI Risk Management</h3>
-      <p>Implementing ISO 42001 and NIST AI RMF frameworks in practice, not just on paper.</p>
+      <h3>Software Engineering</h3>
+      <p>17 years of building systems. Java, Python, TypeScript. I still love the craft.</p>
     </div>
     <div class="principle-card">
       <h3>Responsible AI</h3>
@@ -66,7 +105,7 @@ permalink: /about/
     </div>
     <div class="principle-card">
       <h3>AI Governance</h3>
-      <p>Making governance genuinely beneficial to teams and users, not just box-checking.</p>
+      <p>ISO 42001, NIST AI RMF. Making governance beneficial to teams, not just box-checking.</p>
     </div>
     <div class="principle-card">
       <h3>Statistical Methods</h3>
@@ -138,7 +177,7 @@ permalink: /about/
     Personal
   </h2>
 
-  <p class="about-personal">I'm an avid lifelong learner, addicted to technical books—my hobbies are reading, studying, and more reading. I live in Greenville, SC with my wife and our dog Jones. When I'm not building AI systems or diving into the latest research papers, you'll find me with a book in hand, usually something about mathematics, statistics, or software architecture.</p>
+  <p class="about-personal">I'm a lifelong learner, addicted to technical books. My hobbies are reading, studying, and more reading. I live in Greenville, SC with my wife and our dog Jones. When I'm not building AI systems or reading research papers, you'll find me with a book in hand. Usually something about mathematics, statistics, or software architecture.</p>
 </section>
 
 <section class="about-section">
