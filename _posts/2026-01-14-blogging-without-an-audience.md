@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Blogging Without an Audience"
-date: 2025-11-15
+date: 2026-01-15
 tags: [personal, career]
 ---
 

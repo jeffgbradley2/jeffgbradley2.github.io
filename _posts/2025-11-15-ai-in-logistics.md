@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AI Agents, Spreadsheets, and Logistics"
-date: 2025-09-22
+date: 2025-11-15
 tags: [llms, engineering, career]
 ---
 
