@@ -1,0 +1,26 @@
+---
+---
+
+// =============================================================================
+// Main SCSS Entry Point
+// =============================================================================
+// This file imports all partials in the correct order.
+// The empty front matter above is required for Jekyll to process this file.
+
+// Variables and design tokens (must be first)
+@import "variables";
+
+// Base reset and element styles
+@import "base";
+
+// Layout components (header, footer, content structure)
+@import "layout";
+
+// Reusable UI components
+@import "components";
+
+// Code syntax highlighting
+@import "syntax";
+
+// Utility classes (should be last to override when needed)
+@import "utilities";

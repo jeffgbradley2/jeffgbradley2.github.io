@@ -1,8 +1,8 @@
 ---
 layout: post
+title: "Optimize the Optimizer"
 date: 2025-08-26
-title: Optimize the Optimizer
-categories: [featured]
+tags: [productivity, personal]
 ---
 
 We spend so much time optimizing code, systems, processes. Lately I took a step back and spent some time optimizing the optimizer, so to speak. Myself.

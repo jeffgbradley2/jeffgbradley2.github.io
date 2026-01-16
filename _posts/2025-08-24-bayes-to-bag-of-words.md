@@ -1,7 +1,8 @@
 ---
 layout: post
+title: "Bayes to Bag of Words"
 date: 2025-08-24
-title: Bayes to Bag of Words
+tags: [nlp, statistics]
 ---
 
 I've been studying and implementing Bayesian modeling for a while. I've learned a lot about it too! All about priors and posteriors, likelihoods and normalizing constants, random variables and distributions, PyMC and Arviz. Along the way I've implemented some cool stuff and really come to appreciate the place that Bayesian modeling and computation have in modern machine learning and data analytics.

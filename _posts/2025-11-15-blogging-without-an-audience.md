@@ -1,7 +1,8 @@
 ---
-title: Blogging Without an Audience
 layout: post
+title: "Blogging Without an Audience"
 date: 2025-11-15
+tags: [personal, career]
 ---
 
 I've been writing this blog for a while now, and although I enjoy it, I know people I talk to wonder why I write it. Those who know me know it doesn't fit with my personality, and I'm not even promoting it. What's the point?

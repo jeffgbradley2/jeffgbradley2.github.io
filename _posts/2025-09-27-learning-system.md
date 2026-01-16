@@ -1,7 +1,8 @@
 ---
 layout: post
+title: "Systematic Study"
 date: 2025-09-27
-title: Systematic Study
+tags: [personal]
 ---
 
 We all know that as we age, we can't learn things as easily as we did when we were young. It becomes harder to quickly add to our working knowledge, and things don't stick like they did in our twenties.

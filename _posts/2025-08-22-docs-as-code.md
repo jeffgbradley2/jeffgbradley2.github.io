@@ -1,7 +1,8 @@
 ---
 layout: post
+title: "Docs as Code"
 date: 2025-08-21
-title: Docs as Code
+tags: [engineering, ai-governance, productivity]
 ---
 
 Many compliance frameworks, even modern ones like ISO 42001 for AI management, seem to implicitly encourage a workflow built around Microsoft Word documents. When you build a management system, you must document what you're going to do, why you're doing it, and how you'll ensure it's done correctly. Documentation is the primary technology for human-to-human knowledge sharing, and for a management system, it's non-negotiable.

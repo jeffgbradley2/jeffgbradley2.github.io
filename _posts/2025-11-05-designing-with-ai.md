@@ -1,7 +1,8 @@
 ---
 layout: post
+title: "Designing with AI"
 date: 2025-11-05
-title: Designing with AI
+tags: [llms, engineering]
 ---
 
 As an engineer, I struggle with UX design. I focus on systems thinking, processes, and problem solving. Typography and color schemes are not important to me. But I realize that they are important to how users perceive a system, at least initially. 

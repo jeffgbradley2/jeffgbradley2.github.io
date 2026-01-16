@@ -2,10 +2,7 @@
 layout: post
 title: "AI Risk Management"
 date: 2025-08-04
-description: "A comprehensive guide to implementing AI risk management using the NIST AI Risk Management Framework, covering governance, mapping, measuring, and managing AI risks in enterprise environments."
-tags: [AI-risk-management, NIST-AI-RMF, enterprise-AI, risk-assessment, AI-governance, compliance]
-categories: [AI-Governance]
-excerpt: "Learn how to implement the NIST AI Risk Management Framework's four core functions - Govern, Map, Measure, and Manage - to build robust AI systems in enterprise settings."
+tags: [ai-governance]
 ---
 
 Risk management in an enterprise environment is a significant undertaking, but it's a necessary one. It's often downplayed by fast-moving teams as something that "slows you down" and "adds bureaucracy." Perhaps those teams haven't yet had to deal with the consequences of an unmitigated risk, or they simply prioritize speed above all else.

@@ -1,7 +1,8 @@
 ---
 layout: post
+title: "Bayesian Semantic Analysis"
 date: 2025-08-29
-title: Bayesian Semantic Analysis
+tags: [statistics, nlp]
 ---
 
 During my study of semantic analysis, I came across a fascinating algorithm: Latent Dirichlet Allocation, or LDA. (It's an easy one to confuse with Linear Discriminant Analysis, but the two are completely different). While the name is a mouthful, its approach to understanding language is both powerful and intuitive.

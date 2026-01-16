@@ -2,10 +2,7 @@
 layout: post
 title: "Building MetaReason"
 date: 2025-07-30
-description: "Introducing MetaReason, an open-source project that applies classical probability and statistics to quantify confidence in Large Language Models, moving beyond qualitative evaluation frameworks."
-tags: [AI, LLM, statistics, probability, MetaReason, confidence-scoring, machine-learning]
-categories: [AI-Development]
-excerpt: "Learn how MetaReason combines classical statistics with modern NLP to create trustworthy AI systems through rigorous confidence quantification."
+tags: [metareason, statistics, llms]
 ---
 
 Over the last few years, I've used Large Language Models at work and in my personal life, like most people in the industrialized world. LLMs amaze me with their ability to understand and produce coherent, useful text. But I'm also regularly let down by them, sometimes in unexpected and subtle ways. Small changes to inputs can produce drastically different outputs. I've spent many hours evaluating LLMs and building evaluation frameworks, all with the goal of creating AI systems that are consistently trustworthy. 

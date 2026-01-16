@@ -2,13 +2,7 @@
 layout: post
 title: "A Practitioners Guide to LLM-as-a-Judge"
 date: 2025-08-15
-description: "Learn how to move from subjective 'vibe checks' to rigorous automated evaluation using LLMs as judges. Complete guide with practical examples and production tips."
-keywords: "LLM evaluation, AI testing, LLM as judge, Gemini 2.5 Pro, AI evaluation framework, automated testing, machine learning evaluation, AI quality assurance"
-categories: [AI, evaluation, testing, featured]
-tags: [LLM, evaluation, Gemini, AI-testing, automation, quality-assurance]
-image: /assets/images/llm-judges-preview.jpg
-author: Jeff Bradley
-canonical_url: https://jeffgbradley2.github.io/2025/08/15/llm-judges.html
+tags: [llms, engineering]
 ---
 
 You've just tweaked a prompt or fine-tuned a model. You run a test, and the output looks... pretty good. But is it actually *better*? This is the fundamental question that haunts every AI practitioner.

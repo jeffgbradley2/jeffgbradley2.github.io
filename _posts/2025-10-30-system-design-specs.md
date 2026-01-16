@@ -1,7 +1,8 @@
 ---
 layout: post
+title: "System Design Specs"
 date: 2025-10-30
-title: System Design Specs
+tags: [engineering, ai-governance]
 ---
 
 In Machine Learning System Design by Valerii Babushkin and Arseny Kravchenko, the authors dedicate an entire chapter to the topic of system design specifications. They go into a lot of detail about why the design spec is a critical part of an ML project, and that, while not every ML project with a system design doc succeeds, the vast majority of those without one fail. 

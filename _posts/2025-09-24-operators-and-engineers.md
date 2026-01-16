@@ -1,7 +1,8 @@
 ---
 layout: post
+title: "Operators and Engineers"
 date: 2025-09-24
-title: Operators and Engineers
+tags: [career, engineering, ai-governance]
 ---
 
 A couple of weeks ago, one of our customers came to town to discuss opportunities for improving their processes with AI. They arrived with a large team, a list of processes, and spreadsheets to back them up. We met for two days, but most of that time was taken up by executives and product people; only a few hours were spent diving into their actual workflows.

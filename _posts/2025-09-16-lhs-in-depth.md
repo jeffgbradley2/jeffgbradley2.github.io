@@ -1,7 +1,8 @@
 ---
 layout: post
+title: "Latin Hypercube Sampling In Depth"
 date: 2025-09-16
-title: Latin Hypercube Sampling In Depth
+tags: [statistics, metareason]
 ---
 
 Tonight I got home after work and sat down in my office to do a little work on MetaReason. It has been a couple weeks since I worked on the core. I went through the code, reviewing things, and landed on the implementation of [Latin Hypercube Sampling](https://en.wikipedia.org/wiki/Latin_hypercube_sampling).

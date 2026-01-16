@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2025-09-09
 title: "README-Driven Development"
+date: 2025-09-09
+tags: [engineering, metareason]
 ---
 
 I've written a fair number of `README.md` files in my time as a developer, but I don't think I've written many *good* ones. At least until recently.

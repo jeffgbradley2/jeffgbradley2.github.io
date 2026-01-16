@@ -1,0 +1,551 @@
+import React, { useState, useMemo } from 'react';
+import { 
+  Terminal, 
+  Cpu, 
+  Network, 
+  ArrowRight, 
+  Github, 
+  Twitter, 
+  Linkedin,
+  Search,
+  Menu,
+  X,
+  BookOpen,
+  Filter,
+  Calendar,
+  Clock,
+  Briefcase,
+  Code,
+  Server,
+  Zap,
+  Layout,
+  Database
+} from 'lucide-react';
+
+// --- Mock Data ---
+const POSTS = [
+  {
+    id: 1,
+    title: "Blogging Without an Audience",
+    excerpt: "Why write when no one is reading? Exploring the intrinsic value of documenting your learning process and how it sharpens your engineering communication skills.",
+    date: "2025-11-15",
+    readTime: "4 min read",
+    tags: ["Meta", "Career"],
+    icon: <BookOpen className="w-5 h-5" />
+  },
+  {
+    id: 2,
+    title: "The Anatomy of a URL",
+    excerpt: "Breaking down the structure of a Uniform Resource Locator. From protocol to fragment, we analyze how browsers parse and execute requests.",
+    date: "2025-11-10",
+    readTime: "6 min read",
+    tags: ["Systems", "Web"],
+    icon: <Network className="w-5 h-5" />
+  },
+  {
+    id: 3,
+    title: "Designing with AI Agents",
+    excerpt: "Moving beyond chatbots. How to architect systems where LLMs function as autonomous agents capable of decision-making loops.",
+    date: "2025-10-28",
+    readTime: "8 min read",
+    tags: ["AI", "Architecture"],
+    icon: <Cpu className="w-5 h-5" />
+  },
+  {
+    id: 4,
+    title: "Idempotency in Distributed Systems",
+    excerpt: "Ensuring that multiple identical requests have the same effect as a single request. A critical pattern for payment processing and reliable APIs.",
+    date: "2025-10-15",
+    readTime: "12 min read",
+    tags: ["Systems", "Backend"],
+    icon: <Terminal className="w-5 h-5" />
+  },
+  {
+    id: 5,
+    title: "CAP Theorem Revisited",
+    excerpt: "Consistency, Availability, Partition Tolerance. Why you can't have it all, and how modern databases handle the trade-offs.",
+    date: "2025-09-22",
+    readTime: "10 min read",
+    tags: ["Systems", "Database"],
+    icon: <Network className="w-5 h-5" />
+  },
+  {
+    id: 6,
+    title: "Prompt Engineering Patterns",
+    excerpt: "Structural patterns for getting consistent outputs from large language models. Chain-of-thought, ReAct, and more.",
+    date: "2025-09-05",
+    readTime: "7 min read",
+    tags: ["AI", "Meta"],
+    icon: <Cpu className="w-5 h-5" />
+  }
+];
+
+const EXPERIENCE = [
+  {
+    id: 1,
+    role: "Senior Systems Engineer",
+    company: "TechFlow Systems",
+    period: "2023 - Present",
+    desc: "Architecting high-throughput event streaming platforms. Reduced latency by 40% through custom partitioning strategies in Kafka."
+  },
+  {
+    id: 2,
+    role: "Backend Developer",
+    company: "DataScale Inc.",
+    period: "2020 - 2023",
+    desc: "Built microservices in Go and Rust. Led the migration from monolithic architecture to distributed containers on Kubernetes."
+  },
+  {
+    id: 3,
+    role: "Full Stack Engineer",
+    company: "StartupZ",
+    period: "2018 - 2020",
+    desc: "Early hire. Built the MVP, handled deployment pipelines, and survived the first 100k users scaling phase."
+  }
+];
+
+const SKILLS = [
+  { category: "Languages", items: ["TypeScript", "Go", "Rust", "Python"] },
+  { category: "Infrastructure", items: ["Kubernetes", "Terraform", "AWS", "Docker"] },
+  { category: "Data", items: ["PostgreSQL", "Redis", "Kafka", "Elasticsearch"] },
+  { category: "Frontend", items: ["React", "Next.js", "Tailwind", "Three.js"] },
+];
+
+const ALL_TAGS = Array.from(new Set(POSTS.flatMap(post => post.tags))).sort();
+
+export default function BlogRedesign() {
+  const [currentView, setCurrentView] = useState('home'); // 'home' | 'archive' | 'about'
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const navigate = (view) => {
+    setCurrentView(view);
+    setIsMobileMenuOpen(false);
+    window.scrollTo(0, 0);
+  };
+
+  return (
+    <div className="min-h-screen bg-[#0f0f11] text-gray-300 font-sans selection:bg-indigo-500/30">
+      
+      {/* --- Header --- */}
+      <header className="fixed top-0 left-0 right-0 z-50 border-b border-gray-800 bg-[#0f0f11]/90 backdrop-blur-sm">
+        <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+          <div 
+            className="flex items-center gap-3 cursor-pointer" 
+            onClick={() => navigate('home')}
+          >
+            <div className="w-8 h-8 bg-indigo-500/10 border border-indigo-500/20 rounded flex items-center justify-center text-indigo-400">
+              <Terminal size={16} />
+            </div>
+            <span className="font-bold text-gray-100 tracking-tight">Jeff.dev</span>
+          </div>
+
+          {/* Desktop Nav */}
+          <nav className="hidden md:flex items-center gap-8 text-sm font-medium">
+            <button 
+              onClick={() => navigate('home')}
+              className={`transition-colors duration-200 ${currentView === 'home' ? 'text-indigo-400' : 'hover:text-indigo-400'}`}
+            >
+              Home
+            </button>
+            <button 
+              onClick={() => navigate('archive')}
+              className={`transition-colors duration-200 ${currentView === 'archive' ? 'text-indigo-400' : 'hover:text-indigo-400'}`}
+            >
+              Archive
+            </button>
+            <button 
+              onClick={() => navigate('about')}
+              className={`transition-colors duration-200 ${currentView === 'about' ? 'text-indigo-400' : 'hover:text-indigo-400'}`}
+            >
+              About
+            </button>
+          </nav>
+
+          {/* Mobile Menu Toggle */}
+          <button 
+            className="md:hidden text-gray-400 hover:text-white"
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          >
+            {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
+        </div>
+      </header>
+
+      {/* Mobile Nav Overlay */}
+      {isMobileMenuOpen && (
+        <div className="fixed inset-0 top-16 z-40 bg-[#0f0f11] p-6 md:hidden border-t border-gray-800">
+          <nav className="flex flex-col gap-6 text-lg">
+            <button onClick={() => navigate('home')} className="text-left text-gray-300 hover:text-indigo-400">Home</button>
+            <button onClick={() => navigate('archive')} className="text-left text-gray-300 hover:text-indigo-400">Archive</button>
+            <button onClick={() => navigate('about')} className="text-left text-gray-300 hover:text-indigo-400">About</button>
+          </nav>
+        </div>
+      )}
+
+      <main className="max-w-5xl mx-auto px-6 pt-32 pb-20">
+        {currentView === 'home' && <HomeView navigate={navigate} />}
+        {currentView === 'archive' && <ArchiveView />}
+        {currentView === 'about' && <AboutView />}
+      </main>
+
+      {/* --- Footer --- */}
+      <footer className="max-w-5xl mx-auto px-6 py-12 border-t border-gray-800 text-center text-xs text-gray-600 font-mono">
+        &copy; 2026 Jeff.dev. Built with React & Tailwind.
+      </footer>
+    </div>
+  );
+}
+
+// --- VIEW COMPONENTS ---
+
+function HomeView({ navigate }) {
+  // Show only first 4 posts on home
+  const featuredPosts = POSTS.slice(0, 4);
+
+  return (
+    <>
+      {/* --- Hero Section --- */}
+      <section className="mb-20 animate-fade-in">
+        <div className="max-w-2xl">
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 tracking-tight">
+            Engineering reliable systems in an unreliable world.
+          </h1>
+          <p className="text-xl text-gray-400 leading-relaxed mb-8">
+            Hi, I'm Jeff. I write about <span className="text-indigo-400 border-b border-indigo-400/20 pb-0.5">System Design</span>, <span className="text-indigo-400 border-b border-indigo-400/20 pb-0.5">AI Agents</span>, and the chaotic beauty of software architecture.
+          </p>
+          <div className="flex gap-4">
+            <SocialButton icon={<Github size={20} />} label="GitHub" />
+            <SocialButton icon={<Twitter size={20} />} label="Twitter" />
+            <SocialButton icon={<Linkedin size={20} />} label="LinkedIn" />
+          </div>
+        </div>
+      </section>
+
+      {/* --- Featured Section Header --- */}
+      <div className="flex items-end justify-between mb-8 border-b border-gray-800 pb-4">
+        <h2 className="text-sm font-mono text-indigo-400 uppercase tracking-wider">
+          Latest Thoughts
+        </h2>
+        <button 
+          onClick={() => navigate('archive')}
+          className="text-xs text-gray-500 hover:text-white transition-colors flex items-center gap-1 group"
+        >
+          View Archive <ArrowRight size={12} className="group-hover:translate-x-0.5 transition-transform" />
+        </button>
+      </div>
+
+      {/* --- Blog Grid --- */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-24">
+        {featuredPosts.map((post) => (
+          <PostCard key={post.id} post={post} />
+        ))}
+      </div>
+
+      {/* --- Newsletter --- */}
+      <div className="bg-indigo-900/10 border border-indigo-500/20 rounded-xl p-8 md:p-12 text-center">
+        <h3 className="text-2xl font-bold text-white mb-4">Join the System</h3>
+        <p className="text-gray-400 mb-8 max-w-md mx-auto">
+          Get my latest posts on engineering and AI delivered straight to your inbox. No spam, just signals.
+        </p>
+        <form className="max-w-sm mx-auto flex gap-2" onSubmit={(e) => e.preventDefault()}>
+          <input 
+            type="email" 
+            placeholder="email@example.com" 
+            className="flex-1 bg-[#0f0f11] border border-gray-700 text-white px-4 py-2 rounded focus:outline-none focus:border-indigo-500 transition-colors text-sm"
+          />
+          <button className="bg-indigo-600 hover:bg-indigo-500 text-white px-6 py-2 rounded text-sm font-medium transition-colors">
+            Subscribe
+          </button>
+        </form>
+      </div>
+    </>
+  );
+}
+
+function ArchiveView() {
+  const [searchQuery, setSearchQuery] = useState('');
+  const [selectedTags, setSelectedTags] = useState([]);
+
+  // Toggle tag selection
+  const toggleTag = (tag) => {
+    setSelectedTags(prev => 
+      prev.includes(tag) 
+        ? prev.filter(t => t !== tag)
+        : [...prev, tag]
+    );
+  };
+
+  // Filter Logic
+  const filteredPosts = useMemo(() => {
+    return POSTS.filter(post => {
+      const matchesSearch = post.title.toLowerCase().includes(searchQuery.toLowerCase());
+      const matchesTags = selectedTags.length === 0 || selectedTags.every(tag => post.tags.includes(tag));
+      return matchesSearch && matchesTags;
+    });
+  }, [searchQuery, selectedTags]);
+
+  return (
+    <div className="animate-fade-in">
+      <div className="mb-12">
+        <h1 className="text-3xl font-bold text-white mb-6">Archive</h1>
+        
+        {/* --- Search & Filter Controls --- */}
+        <div className="bg-[#161618] border border-gray-800 rounded-lg p-6">
+          
+          {/* Search Bar */}
+          <div className="relative mb-6">
+            <div className="absolute inset-y-0 left-3 flex items-center pointer-events-none text-gray-500">
+              <Search size={18} />
+            </div>
+            <input 
+              type="text" 
+              placeholder="Search by title..." 
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="w-full bg-[#0f0f11] border border-gray-700 text-white pl-10 pr-4 py-3 rounded focus:outline-none focus:border-indigo-500 transition-colors font-mono text-sm"
+            />
+          </div>
+
+          {/* Tag Cloud */}
+          <div>
+            <div className="text-xs font-mono text-gray-500 uppercase tracking-wider mb-3 flex items-center gap-2">
+              <Filter size={12} /> Filter by Tags
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {ALL_TAGS.map(tag => {
+                const isSelected = selectedTags.includes(tag);
+                return (
+                  <button
+                    key={tag}
+                    onClick={() => toggleTag(tag)}
+                    className={`text-xs font-mono px-3 py-1.5 rounded border transition-all duration-200 
+                      ${isSelected 
+                        ? 'bg-indigo-500/20 border-indigo-500 text-indigo-300' 
+                        : 'bg-[#0f0f11] border-gray-700 text-gray-400 hover:border-gray-500 hover:text-gray-200'
+                      }`}
+                  >
+                    {tag}
+                  </button>
+                );
+              })}
+              {selectedTags.length > 0 && (
+                <button 
+                  onClick={() => setSelectedTags([])}
+                  className="text-xs font-mono px-3 py-1.5 text-gray-500 hover:text-white transition-colors"
+                >
+                  Clear
+                </button>
+              )}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* --- Archive Results List --- */}
+      <div className="space-y-4">
+        <div className="text-xs text-gray-500 font-mono mb-4">
+          Showing {filteredPosts.length} post{filteredPosts.length !== 1 && 's'}
+        </div>
+
+        {filteredPosts.length > 0 ? (
+          filteredPosts.map(post => (
+            <div 
+              key={post.id} 
+              className="group flex flex-col md:flex-row md:items-center justify-between p-4 rounded-lg hover:bg-[#161618] border border-transparent hover:border-gray-800 transition-all duration-200 cursor-pointer"
+            >
+              <div className="flex-1 mb-2 md:mb-0">
+                <div className="flex items-center gap-3 mb-1">
+                  <h3 className="text-lg font-bold text-gray-200 group-hover:text-indigo-400 transition-colors">
+                    {post.title}
+                  </h3>
+                  <div className="flex gap-2">
+                    {post.tags.map(tag => (
+                      <span key={tag} className="hidden md:inline-block text-[10px] font-mono text-gray-600 bg-gray-900 px-1.5 rounded border border-gray-800">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                <div className="text-sm text-gray-500 line-clamp-1">
+                  {post.excerpt}
+                </div>
+              </div>
+
+              <div className="flex items-center gap-6 text-xs font-mono text-gray-600 shrink-0">
+                <span className="flex items-center gap-1.5">
+                  <Calendar size={12} />
+                  {post.date}
+                </span>
+                <span className="flex items-center gap-1.5">
+                  <Clock size={12} />
+                  {post.readTime}
+                </span>
+              </div>
+            </div>
+          ))
+        ) : (
+          <div className="py-20 text-center border border-dashed border-gray-800 rounded-lg">
+            <div className="text-gray-600 mb-2">No system logs found.</div>
+            <button 
+              onClick={() => {setSearchQuery(''); setSelectedTags([]);}}
+              className="text-indigo-400 hover:underline text-sm"
+            >
+              Reset filters
+            </button>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+function AboutView() {
+  return (
+    <div className="animate-fade-in max-w-3xl mx-auto">
+      {/* Intro */}
+      <section className="mb-20">
+        <h1 className="text-3xl md:text-4xl font-bold text-white mb-6">
+          Hello, World.
+        </h1>
+        <div className="prose prose-invert prose-lg text-gray-400 leading-relaxed">
+          <p className="mb-4">
+            I'm Jeff, a Software Engineer based in San Francisco. I spend most of my time thinking about 
+            <span className="text-indigo-400"> distributed systems</span>, 
+            <span className="text-indigo-400"> database internals</span>, and how to build software that doesn't wake me up at 3 AM.
+          </p>
+          <p>
+            Currently, I'm working on scaling data pipelines at TechFlow. Before that, I built backend services for startups and enterprises. This blog is my digital garden—a place where I document my learning process, debug weird errors publicly, and share my thoughts on the future of engineering.
+          </p>
+        </div>
+      </section>
+
+      {/* Experience Timeline */}
+      <section className="mb-20">
+        <h2 className="text-xl font-bold text-white mb-8 flex items-center gap-2">
+          <Briefcase size={20} className="text-indigo-400" /> System Logs
+        </h2>
+        <div className="space-y-12 border-l border-gray-800 ml-3 pl-8 relative">
+          {EXPERIENCE.map((job) => (
+            <div key={job.id} className="relative">
+              {/* Timeline Dot */}
+              <div className="absolute -left-[39px] top-1.5 w-5 h-5 bg-[#0f0f11] border border-indigo-500 rounded-full flex items-center justify-center">
+                <div className="w-1.5 h-1.5 bg-indigo-500 rounded-full"></div>
+              </div>
+              
+              <div className="flex flex-col sm:flex-row sm:items-baseline justify-between mb-2">
+                <h3 className="text-lg font-bold text-gray-200">{job.role}</h3>
+                <span className="text-xs font-mono text-gray-500">{job.company} • {job.period}</span>
+              </div>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                {job.desc}
+              </p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Philosophy / Principles */}
+      <section className="mb-20">
+        <h2 className="text-xl font-bold text-white mb-8 flex items-center gap-2">
+          <Zap size={20} className="text-indigo-400" /> Core Principles
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="bg-[#161618] p-6 rounded-lg border border-gray-800/50">
+            <h3 className="font-bold text-gray-200 mb-2">Simplicity</h3>
+            <p className="text-xs text-gray-500 leading-relaxed">
+              Complex systems fail in complex ways. Keep it simple, stupid.
+            </p>
+          </div>
+          <div className="bg-[#161618] p-6 rounded-lg border border-gray-800/50">
+            <h3 className="font-bold text-gray-200 mb-2">Reliability</h3>
+            <p className="text-xs text-gray-500 leading-relaxed">
+              Uptime is a feature. Design for failure, because it will happen.
+            </p>
+          </div>
+          <div className="bg-[#161618] p-6 rounded-lg border border-gray-800/50">
+            <h3 className="font-bold text-gray-200 mb-2">Curiosity</h3>
+            <p className="text-xs text-gray-500 leading-relaxed">
+              Always ask "why". Understanding the abstraction layer below you is a superpower.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Tech Stack */}
+      <section>
+        <h2 className="text-xl font-bold text-white mb-8 flex items-center gap-2">
+          <Terminal size={20} className="text-indigo-400" /> The Toolbox
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+          {SKILLS.map((skillGroup) => (
+            <div key={skillGroup.category}>
+              <h3 className="text-sm font-mono text-gray-500 uppercase tracking-wider mb-4 border-b border-gray-800 pb-2">
+                {skillGroup.category}
+              </h3>
+              <div className="flex flex-wrap gap-2">
+                {skillGroup.items.map((item) => (
+                  <span key={item} className="px-3 py-1.5 bg-[#161618] text-gray-300 text-xs font-mono rounded border border-gray-800 hover:border-indigo-500/50 hover:text-indigo-400 transition-colors cursor-default">
+                    {item}
+                  </span>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+    </div>
+  );
+}
+
+// --- SHARED COMPONENTS ---
+
+function PostCard({ post }) {
+  return (
+    <article 
+      className="group relative bg-[#161618] border border-gray-800 rounded-lg p-6 hover:border-indigo-500/30 transition-all duration-300 hover:shadow-lg hover:shadow-indigo-500/5 hover:-translate-y-1"
+    >
+      <div className="flex items-center justify-between mb-4">
+        <div className="flex gap-2">
+          {post.tags.map(tag => (
+            <span key={tag} className="text-[10px] font-mono font-medium uppercase tracking-wider px-2 py-1 bg-gray-800/50 text-gray-400 rounded group-hover:bg-indigo-500/10 group-hover:text-indigo-400 transition-colors">
+              {tag}
+            </span>
+          ))}
+        </div>
+        <div className="text-gray-500 text-xs font-mono">
+          {post.date}
+        </div>
+      </div>
+
+      <h3 className="text-xl font-bold text-gray-100 mb-3 group-hover:text-white transition-colors flex items-start gap-3">
+        {post.title}
+      </h3>
+
+      <p className="text-gray-400 text-sm leading-relaxed mb-6">
+        {post.excerpt}
+      </p>
+
+      <div className="flex items-center justify-between pt-4 border-t border-gray-800/50 mt-auto">
+        <span className="text-xs text-gray-600 font-mono flex items-center gap-2">
+          {post.icon}
+          {post.readTime}
+        </span>
+        <span className="text-sm font-medium text-indigo-400 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 flex items-center gap-1">
+          Read Article <ArrowRight size={14} />
+        </span>
+      </div>
+    </article>
+  );
+}
+
+function SocialButton({ icon, label }) {
+  return (
+    <button 
+      aria-label={label}
+      className="p-2 text-gray-400 hover:text-white hover:bg-gray-800 rounded-lg transition-all duration-200"
+    >
+      {icon}
+    </button>
+  );
+}

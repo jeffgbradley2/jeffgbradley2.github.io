@@ -1,7 +1,8 @@
 ---
 layout: post
+title: "Evaluation Driven Development"
 date: 2025-10-22
-title: Evaluation Driven Development
+tags: [engineering, llms]
 ---
 
 My last post went into why it is important to go slow in order to go fast when starting a new AI project (or any project, really). That post discussed the importance of defining the problem and assessing impact and risk and feasibility, and creating a high-quality system design specification.
