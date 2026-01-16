@@ -5,7 +5,7 @@ date: 2025-08-15
 tags: [llms, engineering]
 ---
 
-You've just tweaked a prompt or fine-tuned a model. You run a test, and the output looks... pretty good. But is it actually *better*? This is the fundamental question that haunts every AI practitioner.
+You've just tweaked a prompt or fine-tuned a model. You run a test, and the output looks pretty good, the test passes. But is it actually better? What happens if the prompt varies a little? This situation should be familiar to any AI practitioner.
 
 In practice, many shops begin by evaluating their LLM apps on "vibes." I know I did, full transparency. There's nothing wrong with that for initial exploration, and I’m not downplaying the role of competent human evaluators in enterprise pipelines. But vibe-checking isn't scalable, and it isn't objective. How do you prove that a change resulted in a measurable improvement?
 
@@ -130,6 +130,6 @@ Sequential evaluations are a bottleneck waiting to happen. As you stack up dozen
 
 Moving from subjective "vibe checks" to a systematic, automated evaluation framework is a mark of maturity for any team building with AI. Using a powerful LLM like Gemini 2.5 Pro as a judge doesn't just give you a score; it gives you confidence. It replaces ambiguity with data, enabling you to iterate faster, catch subtle regressions, and ultimately ship a better, safer product.
 
-The process forces a healthy discipline: you have to define what "good" means before you can measure it. As this paradigm evolves, we can imagine a future where the feedback loop is even tighter—where AI judges not only score an output but suggest the specific prompt or data changes needed to improve it.
+The process forces a healthy discipline: you have to define what "good" means before you can measure it. As this paradigm evolves, I can imagine a future where the feedback loop is even tighter, where AI judges not only score an output but suggest the specific prompt or data changes needed to improve it.
 
 If you haven't tried this yet, start small. Pick one critical use case, define a simple rubric, and run ten examples through an LLM judge. The clarity you gain in just an hour will be well worth the effort.
