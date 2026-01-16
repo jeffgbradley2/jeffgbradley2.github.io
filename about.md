@@ -166,9 +166,8 @@ permalink: /about/
       </div>
     </div>
     <div class="skill-category">
-      <h3>Full-Stack</h3>
+      <h3>Frontend Development</h3>
       <div class="skill-tags">
-        <span class="skill-tag">Python</span>
         <span class="skill-tag">TypeScript</span>
         <span class="skill-tag">Node.js</span>
         <span class="skill-tag">Vuejs</span>
