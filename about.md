@@ -17,7 +17,7 @@ permalink: /about/
       <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
       <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
     </svg>
-    Rygen <span class="section-label">At Work</span>
+    At Work
   </h2>
 
   <div class="experience-timeline">
@@ -56,26 +56,35 @@ permalink: /about/
       <circle cx="12" cy="12" r="10"></circle>
       <polyline points="12 6 12 12 16 14"></polyline>
     </svg>
-    MetaReason <span class="section-label">At Play</span>
+    At Play
   </h2>
 
   <div class="experience-timeline">
     <div class="experience-item">
       <div class="experience-dot"></div>
       <div class="experience-header">
-        <span class="experience-role">Quantifying AI Confidence</span>
+        <span class="experience-role">MetaReason</span>
         <span class="experience-meta">Founder</span>
       </div>
-      <p class="experience-desc">After years of evaluating LLMs and building evaluation frameworks in enterprise settings, I've seen firsthand how hard it is to create consistently trustworthy AI systems. MetaReason is my attempt to bring classical probability and statistics to bear on this problem. Open Source, Open Governance, and hopefully beyond the qualitative hand-waving.</p>
+      <p class="experience-desc">After years of evaluating LLMs and building evaluation frameworks in enterprise settings, I've seen firsthand how hard it is to create consistently trustworthy AI systems. <a href="https://github.com/metareason-ai">MetaReason</a> is my attempt to bring classical probability and statistics to bear on this problem. Open Source, Open Governance, and hopefully beyond the qualitative hand-waving.</p>
     </div>
 
     <div class="experience-item">
       <div class="experience-dot"></div>
       <div class="experience-header">
-        <span class="experience-role">metareason-core</span>
-        <span class="experience-meta">Open Source</span>
+        <span class="experience-role">Self-Improvement</span>
+        <span class="experience-meta">Lifelong Learner</span>
       </div>
-      <p class="experience-desc">I'm the maintainer and primary contributor to <a href="https://github.com/metareason-ai/metareason-core">metareason-core</a>, an open-source framework for quantifying AI confidence. After years of proprietary work, I'm excited to finally contribute to the open-source community.</p>
+      <p class="experience-desc">I'm a lifelong learner, addicted to technical books. My hobbies are reading, studying, and more reading. When I'm not building AI systems or reading research papers, you'll find me with a book in hand. Usually something about software engineer, AI/ML, or philosophy.</p>
+    </div>
+
+    <div class="experience-item">
+      <div class="experience-dot"></div>
+      <div class="experience-header">
+        <span class="experience-role">Family & Friends</span>
+        <span class="experience-meta">Greenville, SC</span>
+      </div>
+      <p class="experience-desc">I live in Greenville, SC with my wife and our dog Jones. Family and close friendships keep me grounded and remind me there's more to life than code and models.</p>
     </div>
   </div>
 </section>
@@ -166,18 +175,6 @@ permalink: /about/
       </div>
     </div>
   </div>
-</section>
-
-<section class="about-section">
-  <h2 class="about-section-header">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-      <circle cx="12" cy="7" r="4"></circle>
-    </svg>
-    Personal
-  </h2>
-
-  <p class="about-personal">I'm a lifelong learner, addicted to technical books. My hobbies are reading, studying, and more reading. I live in Greenville, SC with my wife and our dog Jones. When I'm not building AI systems or reading research papers, you'll find me with a book in hand. Usually something about mathematics, statistics, or software architecture.</p>
 </section>
 
 <section class="about-section">
