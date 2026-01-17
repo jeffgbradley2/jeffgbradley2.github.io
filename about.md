@@ -92,44 +92,6 @@ permalink: /about/
 <section class="about-section">
   <h2 class="about-section-header">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
-      <path d="M2 17l10 5 10-5"></path>
-      <path d="M2 12l10 5 10-5"></path>
-    </svg>
-    Focus Areas
-  </h2>
-
-  <div class="principles-grid">
-    <div class="principle-card">
-      <h3>Enterprise AI Systems</h3>
-      <p>Building, deploying, and maintaining AI systems at scale with production-grade reliability.</p>
-    </div>
-    <div class="principle-card">
-      <h3>Software Engineering</h3>
-      <p>17 years of building systems. Java, Python, TypeScript. I still love the craft.</p>
-    </div>
-    <div class="principle-card">
-      <h3>Responsible AI</h3>
-      <p>Building guardrails before stomping on the accelerator. Safety and capability together.</p>
-    </div>
-    <div class="principle-card">
-      <h3>AI Governance</h3>
-      <p>ISO 42001, NIST AI RMF. Making governance beneficial to teams, not just box-checking.</p>
-    </div>
-    <div class="principle-card">
-      <h3>Statistical Methods</h3>
-      <p>Applying classical probability and statistics with modern NLP to LLM evaluations.</p>
-    </div>
-    <div class="principle-card">
-      <h3>Open Source</h3>
-      <p>Committed to transparent, community-driven development and open governance.</p>
-    </div>
-  </div>
-</section>
-
-<section class="about-section">
-  <h2 class="about-section-header">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <polyline points="16 18 22 12 16 6"></polyline>
       <polyline points="8 6 2 12 8 18"></polyline>
     </svg>
@@ -171,6 +133,60 @@ permalink: /about/
         <span class="skill-tag">TypeScript</span>
         <span class="skill-tag">Node.js</span>
         <span class="skill-tag">Vuejs</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about-section">
+  <h2 class="about-section-header">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+    </svg>
+    Editorial Standards
+  </h2>
+
+  <div class="editorial-statement">
+    <div class="editorial-statement-header">
+      <h3>Writer: Human. Editor: AI.</h3>
+      <span class="human-written-badge">100% Human Written</span>
+    </div>
+    <p>Transparency matters. All articles on this blog are conceived, researched, and written by me. I do not use AI to generate content from scratch.</p>
+    <p>However, I do use Large Language Models as a <strong>conversational editor</strong>. I use them to catch grammatical errors, critique my logical flow, and suggest structural improvements. Think of it as having a tireless editor-in-chief living in my terminal.</p>
+
+    <div class="terminal-window">
+      <div class="terminal-header">
+        <span class="terminal-title">CLAUDE.md</span>
+        <div class="terminal-buttons">
+          <span class="terminal-btn close"></span>
+          <span class="terminal-btn minimize"></span>
+          <span class="terminal-btn maximize"></span>
+        </div>
+      </div>
+      <div class="terminal-body">
+        <pre><code><span class="line-num"> 1</span>  <span class="md-h1"># Project Context for Claude Code</span>
+<span class="line-num"> 2</span>
+<span class="line-num"> 3</span>  <span class="md-h2">## Overview</span>
+<span class="line-num"> 4</span>
+<span class="line-num"> 5</span>  This is a Jekyll-based tech blog where I make posts about MetaReason, AI, ML,
+<span class="line-num"> 6</span>  Data Science, work, and life as an engineer.
+<span class="line-num"> 7</span>
+<span class="line-num"> 8</span>  <span class="md-h2">## Instructions</span>
+<span class="line-num"> 9</span>
+<span class="line-num">10</span>  <span class="md-list">-</span> Be a <span class="md-bold">professional editor in chief</span>, providing suggestions and grammatical fixes.
+<span class="line-num">11</span>
+<span class="line-num">12</span>  <span class="md-h2">## Project Structure</span>
+<span class="line-num">13</span>
+<span class="line-num">14</span>  <span class="md-list">-</span> <span class="md-bold">**Blog Platform**</span>: Jekyll static site generator
+<span class="line-num">15</span>  <span class="md-list">-</span> <span class="md-bold">**Posts Directory**</span>: <span class="md-code">`_posts/`</span> - Contains chronological blog posts
+<span class="line-num">16</span>  <span class="md-list">-</span> <span class="md-bold">**Layouts**</span>: <span class="md-code">`_layouts/`</span> - Jekyll templates (default.html, post.html)
+<span class="line-num">17</span>  <span class="md-list">-</span> <span class="md-bold">**Assets**</span>: <span class="md-code">`assets/images/`</span> - Blog images and media
+<span class="line-num">18</span>  <span class="md-list">-</span> <span class="md-bold">**Configuration**</span>: <span class="md-code">`_config.yml`</span> - Jekyll site configuration
+<span class="line-num">19</span>
+<span class="line-num">20</span>  <span class="md-h2">## Development Commands</span>
+<span class="line-num">21</span>
+<span class="line-num">22</span>  <span class="md-list">-</span> <span class="md-bold">**Local Development**</span>: <span class="md-code">`bundle exec jekyll serve`</span>
+<span class="line-num">23</span>  <span class="md-list">-</span> <span class="md-bold">**Build**</span>: <span class="md-code">`bundle exec jekyll build`</span></code></pre>
       </div>
     </div>
   </div>

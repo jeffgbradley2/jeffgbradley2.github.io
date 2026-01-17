@@ -52,11 +52,13 @@ AI Agents can now handle this task. We're working with them to automate it while
 Our solution isn't in development yet; we are still in the problem-definition phase of our AI SDLC. But we have a clear business case, a plan, and it is entirely feasible. We'll continue through the process: assessing and mitigating risks, building evaluations, creating an MVP, setting up monitoring, and iterating. In the end, I expect us to have a system that honors their business process while automating 90% of the work.
 
 ## Considering the Human Impact
+
 There are also human impacts to consider. I'm not so callous as to ignore that people's jobs are being impacted in all the cases I've heard about. We treat these human impacts as a critical part of our assessments with clients, not as some compliance-theater checkbox.
 
 This isn't easy to do, just like risk assessment, but it is essential to do it consistently. Agents are reaching maturity and will soon be able to automate a significant portion of repetitive computer work. This makes it crucial to have a system for assessing, mitigating, and monitoring these effects before diving in and just "doing it with AI."
 
 ## Logistics is Changing
+
 Hot take: the work of logistics professionals is about to fundamentally change. Many of them spend their days calling carriers, searching websites, and updating spreadsheets. These are tasks that can now be automated with increasing capability by AI Agents.
 
 This is going to have a profound impact, and not just on logistics. But logistics is unique in that it has always been an eager early adopter of technology. AI is being adopted at scale within this industry, and the operators I talk to, even those who can barely spell AI, are chomping at the bit to remove the mindless, repetitive point-and-click tasks from their daily routines.

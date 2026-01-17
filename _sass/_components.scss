@@ -1037,3 +1037,191 @@
     text-decoration: none;
   }
 }
+
+// =============================================================================
+// Editorial Standards Section
+// =============================================================================
+
+.editorial-statement {
+  padding: var(--space-6);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+
+  p {
+    font-size: var(--text-sm);
+    color: var(--text-secondary);
+    line-height: var(--leading-relaxed);
+    margin: 0 0 var(--space-3) 0;
+  }
+
+  strong {
+    color: var(--text-primary);
+  }
+
+  .terminal-window {
+    margin-top: var(--space-4);
+    margin-bottom: 0;
+  }
+}
+
+.editorial-statement-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  margin-bottom: var(--space-4);
+
+  h3 {
+    font-size: var(--text-lg);
+    font-weight: 700;
+    color: var(--text-primary);
+    margin: 0;
+  }
+}
+
+.human-written-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  font-size: var(--text-xs);
+  font-family: var(--font-mono);
+  font-weight: 600;
+  color: var(--accent);
+  background-color: var(--accent-subtle);
+  border: 1px solid rgba(129, 140, 248, 0.2);
+  border-radius: var(--radius-md);
+}
+
+// Terminal Window
+.terminal-window {
+  background-color: var(--code-bg);
+  border: 1px solid var(--code-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  margin-bottom: var(--space-6);
+}
+
+.terminal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-3) var(--space-4);
+  background-color: var(--bg-tertiary);
+  border-bottom: 1px solid var(--code-border);
+}
+
+.terminal-buttons {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.terminal-btn {
+  width: 12px;
+  height: 12px;
+  border-radius: var(--radius-full);
+
+  &.close {
+    background-color: #ff5f56;
+  }
+
+  &.minimize {
+    background-color: #ffbd2e;
+  }
+
+  &.maximize {
+    background-color: #27c93f;
+  }
+}
+
+.terminal-title {
+  font-size: var(--text-xs);
+  font-family: var(--font-mono);
+  color: var(--text-tertiary);
+}
+
+.terminal-body {
+  padding: var(--space-4);
+  overflow-x: auto;
+
+  pre {
+    margin: 0;
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+
+  code {
+    font-size: var(--text-xs);
+    font-family: var(--font-mono);
+    color: var(--text-secondary);
+    line-height: var(--leading-relaxed);
+    background: transparent;
+    padding: 0;
+  }
+}
+
+.editorial-note {
+  font-size: var(--text-sm);
+  font-style: italic;
+  color: var(--text-tertiary);
+  text-align: center;
+  margin: 0;
+}
+
+// Terminal Markdown Syntax Highlighting
+.terminal-body {
+  .line-num {
+    color: var(--text-tertiary);
+    opacity: 0.5;
+    user-select: none;
+    margin-right: var(--space-3);
+  }
+
+  .md-h1 {
+    color: #f472b6; // Pink for main heading
+    font-weight: 700;
+  }
+
+  .md-h2 {
+    color: #818cf8; // Indigo/accent for subheadings
+    font-weight: 600;
+  }
+
+  .md-list {
+    color: #fbbf24; // Amber for list markers
+  }
+
+  .md-bold {
+    color: #34d399; // Emerald for bold text
+    font-weight: 600;
+  }
+
+  .md-code {
+    color: #fb923c; // Orange for inline code
+    background-color: rgba(251, 146, 60, 0.1);
+    padding: 1px 4px;
+    border-radius: 3px;
+  }
+}
+
+// Human Written Badge (for post meta)
+.human-written-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  padding: 2px var(--space-2);
+  font-size: var(--text-xs);
+  font-family: var(--font-mono);
+  color: var(--accent);
+  background-color: var(--accent-subtle);
+  border: 1px solid rgba(129, 140, 248, 0.2);
+  border-radius: var(--radius-sm);
+
+  svg {
+    width: 14px;
+    height: 14px;
+  }
+}
