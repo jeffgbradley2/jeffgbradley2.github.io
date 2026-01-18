@@ -148,11 +148,11 @@ permalink: /about/
 
   <div class="editorial-statement">
     <div class="editorial-statement-header">
-      <h3>Writer: Human. Editor: AI.</h3>
+      <h3>I write. AI edits.</h3>
       <span class="human-written-badge">100% Human Written</span>
     </div>
     <p>All articles on this blog are conceived, researched, and written by me. I do not use AI to generate content from scratch.</p>
-    <p>However, I do use Large Language Models as a <strong>conversational editor</strong>. I use them to catch grammatical errors, critique my logical flow, and suggest structural improvements. <strong>It's like having a tireless editor-in-chief living in my terminal.</strong></p>
+    <p>However, I do use Large Language Models as a conversational editor. I use them to catch grammatical errors, critique my logical flow, and suggest structural improvements. <strong>It's like having a tireless editor-in-chief living in my terminal.</strong></p>
 
     <div class="terminal-window">
       <div class="terminal-header">
