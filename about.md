@@ -84,7 +84,7 @@ permalink: /about/
         <span class="experience-role">Family & Friends</span>
         <span class="experience-meta">Greenville, SC</span>
       </div>
-      <p class="experience-desc">I live in Greenville, SC with my wife and our dog Jones. Family and close friendships keep me grounded and remind me there's more to life than code and models.</p>
+      <p class="experience-desc">I live in Greenville, SC with my wife and our dog Jones. Family and close friendships keep me grounded and remind me there's more to life than work and code.</p>
     </div>
   </div>
 </section>
