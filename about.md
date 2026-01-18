@@ -146,15 +146,10 @@ permalink: /about/
     Editorial Standard
   </h2>
 
-  <div class="editorial-statement">
-    <div class="editorial-statement-header">
-      <h3>I write. AI edits.</h3>
-      <span class="human-written-badge">100% Human Written</span>
-    </div>
-    <p>All articles on this blog are conceived, researched, and written by me. I do not use AI to generate content from scratch.</p>
-    <p>However, I do use Large Language Models as a conversational editor. I use them to catch grammatical errors, critique my logical flow, and suggest structural improvements. <strong>It's like having a tireless editor-in-chief living in my terminal.</strong></p>
+  <p>All articles on this blog are conceived, researched, and written by me. I do not use AI to generate content from scratch.</p>
+  <p>However, I do use Large Language Models as a conversational editor. I use them to catch grammatical errors, critique my logical flow, and suggest structural improvements. <strong>It's like having a tireless editor-in-chief living in my terminal.</strong></p>
 
-    <div class="terminal-window">
+  <div class="terminal-window">
       <div class="terminal-header">
         <span class="terminal-title">CLAUDE.md</span>
         <div class="terminal-buttons">
@@ -188,7 +183,6 @@ permalink: /about/
 <span class="line-num">23</span>  <span class="md-list">-</span> <span class="md-bold">**Build**</span>: <span class="md-code">`bundle exec jekyll build`</span></code></pre>
       </div>
     </div>
-  </div>
 </section>
 
 <section class="about-section">
