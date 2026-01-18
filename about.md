@@ -151,8 +151,8 @@ permalink: /about/
       <h3>Writer: Human. Editor: AI.</h3>
       <span class="human-written-badge">100% Human Written</span>
     </div>
-    <p>Transparency matters. All articles on this blog are conceived, researched, and written by me. I do not use AI to generate content from scratch.</p>
-    <p>However, I do use Large Language Models as a <strong>conversational editor</strong>. I use them to catch grammatical errors, critique my logical flow, and suggest structural improvements. Think of it as having a tireless editor-in-chief living in my terminal.</p>
+    <p>All articles on this blog are conceived, researched, and written by me. I do not use AI to generate content from scratch.</p>
+    <p>However, I do use Large Language Models as a <strong>conversational editor</strong>. I use them to catch grammatical errors, critique my logical flow, and suggest structural improvements. <strong>It's like having a tireless editor-in-chief living in my terminal.</strong></p>
 
     <div class="terminal-window">
       <div class="terminal-header">
@@ -168,8 +168,7 @@ permalink: /about/
 <span class="line-num"> 2</span>
 <span class="line-num"> 3</span>  <span class="md-h2">## Overview</span>
 <span class="line-num"> 4</span>
-<span class="line-num"> 5</span>  This is a Jekyll-based tech blog where I make posts about MetaReason, AI, ML,
-<span class="line-num"> 6</span>  Data Science, work, and life as an engineer.
+<span class="line-num"> 5</span>  This is a Jekyll-based tech blog where I make posts about MetaReason, AI, ML, Data Science, work, and life as an engineer.
 <span class="line-num"> 7</span>
 <span class="line-num"> 8</span>  <span class="md-h2">## Instructions</span>
 <span class="line-num"> 9</span>
