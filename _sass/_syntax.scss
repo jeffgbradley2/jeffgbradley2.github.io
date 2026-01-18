@@ -7,7 +7,7 @@
   position: relative;
   margin: var(--space-6) 0;
   border-radius: var(--radius-md);
-  overflow: hidden;
+  overflow-x: auto;
 
   pre {
     margin: 0;
