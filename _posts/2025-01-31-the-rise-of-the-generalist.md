@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "The Rise of the Generalist"
 date: 2025-01-31
 tags: [ai, career]
