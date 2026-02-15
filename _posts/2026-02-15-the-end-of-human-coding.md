@@ -58,7 +58,7 @@ In 2025, the shift from super autocomplete to agentic coding occurred. At first,
 
 Research and collaboration exploded, with firms pouring billions of dollars into improving the ability for their models and platforms to support agentic coding. Massive datacenters were constructed, housing superclusters of hundreds of thousands of Nvidia chips. Open source communities shared techniques on context engineering, and the coding app makers incorporated those discoveries into their agentic harnesses.
 
-During this time, Claude Code hit 1 billion in annualized revenue within six months. Cursor reached $100M ARR with zero marketing spend and a $29.3B valuation. Anthropic reported that 70-90% of their own code was AI-generated.
+During this time, Claude Code hit 1 billion in annualized revenue within six months. Cursor reached 100M ARR with zero marketing spend and a 29.3B valuation. Anthropic reported that 70-90% of their own code was AI-generated.
 
 ## Inflection
 
