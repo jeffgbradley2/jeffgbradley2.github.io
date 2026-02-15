@@ -49,7 +49,12 @@ ChatGPT launched a year later and in 2023, OpenAI released GPT-4, the most power
 
 ## Agents
 
-In 2025, the shift from super autocomplete to agentic coding occurred. At first, Cursor and Claude Code were useful tools, producing huge amounts of code in 1/1000th the time it would take a human coder, but often riddled with bugs and security flaws. But as 2025 progressed, coding agents continued to rapidly advance along 4 vectors: model advancements, engineering optimization, harness development, and context engineering.
+In 2025, the shift from super autocomplete to agentic coding occurred. At first, Cursor and Claude Code were useful tools, producing huge amounts of code in 1/1000th the time it would take a human coder, but often riddled with bugs and security flaws. But as 2025 progressed, coding agents continued to rapidly advance along 4 vectors:
+
+- Model Advancements: The transition to reasoning models that prioritize logic over mere pattern matching.
+- Engineering Optimization: The shift from simple API calls to sophisticated loop-based systems that allow agents to correct, test, and iterate.
+- Harness Development: The creation of specialized runtime environments where agents have full access to terminal, file system, and browser tools to verify their work in real-time.
+- Context Engineering: Moving beyond simple prompts to complex approaches like Compound Engineering to autonomously record lessons learned into persistent files, leveraging Plugins and Skills to pull in live system state and maintain a deterministic source of truth for the model to follow.
 
 Research and collaboration exploded, with firms pouring billions of dollars into improving the ability for their models and platforms to support agentic coding. Massive datacenters were constructed, housing superclusters of hundreds of thousands of Nvidia chips. Open source communities shared techniques on context engineering, and the coding app makers incorporated those discoveries into their agentic harnesses.
 
@@ -69,7 +74,7 @@ It was at this time that I myself stopped writing any code professionally. I fou
 
 ## The Future
 
-Let me put it bluntly: if all you do is take specs and convert that to code by typing, you need to wake up. AI is getting drastically better at not just coding, but at the entire software engineering pipeline. This is happening faster than even I predicted, with my end-of-2027 estimate a full 2-years too conservative.
+Let me put it bluntly: if all you do is take specs and convert that to code by typing, alarm bells should be going off in your head. AI is getting drastically better at not just coding, but at the entire software engineering pipeline. This is happening faster than even I predicted, with my end-of-2027 estimate a full 2-years too conservative.
 
 We are not used to our tools improving so fast. I'm used to marginal improvements in my IDE and programming language every year or so, not massive jumps in capabilities over a few months. And now, all the major AI firms report that _the tools are writing all the code for the next generation of the tools_. Claude is writing the code for the next Claude, and Codex is building the next Codex. Releases are speeding up accordingly.
 
