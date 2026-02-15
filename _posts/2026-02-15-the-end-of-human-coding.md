@@ -52,7 +52,7 @@ ChatGPT launched a year later and in 2023, OpenAI released GPT-4, the most power
 In 2025, the shift from super autocomplete to agentic coding occurred. At first, Cursor and Claude Code were useful tools, producing huge amounts of code in 1/1000th the time it would take a human coder, but often riddled with bugs and security flaws. But as 2025 progressed, coding agents continued to rapidly advance along 4 vectors:
 
 - Model Advancements: The transition to reasoning models that prioritize logic over mere pattern matching.
-- Engineering Optimization: The shift from simple API calls to sophisticated loop-based systems that allow agents to correct, test, and iterate.
+- Engineering Optimization: Improvements in the speed and cost at which the models were served.
 - Harness Development: The creation of specialized runtime environments where agents have full access to terminal, file system, and browser tools to verify their work in real-time.
 - Context Engineering: Moving beyond simple prompts to complex approaches like Compound Engineering to autonomously record lessons learned into persistent files, leveraging Plugins and Skills to pull in live system state and maintain a deterministic source of truth for the model to follow.
 
