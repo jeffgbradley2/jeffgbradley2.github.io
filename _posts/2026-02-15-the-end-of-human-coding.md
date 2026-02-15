@@ -61,7 +61,7 @@ In November 2025, advancements in these 4 salients and the release of Claude Opu
 
 It was at this time that I myself stopped writing any code professionally. I found Claude Code to produce high-quality code, and the plugins and skills and context engineering enabled it to generate complex coding projects in minutes that would have taken me days. I've been ringing the bell ever since. AI coding agents can now produce better code than 90% of the developers employed at my current company, at a tiny fraction of the time and cost of the human.
 
-> Today (1 year later), programming via LLM agents is increasingly becoming a default workflow for professionals, except with more oversight and scrutiny. The goal is to claim the leverage from the use of agents but without any compromise on the quality of the software. Many people have tried to come up with a better name for this to differentiate it from vibe coding, personally my current favorite "agentic engineering."
+> Programming via LLM agents is increasingly becoming a default workflow for professionals, except with more oversight and scrutiny. The goal is to claim the leverage from the use of agents but without any compromise on the quality of the software. Many people have tried to come up with a better name for this to differentiate it from vibe coding, personally my current favorite "agentic engineering."
 >
 > Andrej Karpathy
 
