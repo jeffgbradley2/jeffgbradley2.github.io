@@ -15,6 +15,10 @@ But in November of 2025, things changed. The coding agents got good. And somehow
 
 ## A Little History
 
+![Mid-20th Century Punch Card](/assets/images/2026-02-15-punch-card.jpg)
+> By Pete Birkinshaw from Manchester, UK - Used Punchcard, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=49758093
+
+
 Automated coding has been a dream since coding was invented. The term "automatic programming" traces all the way back to the 1940s, when it referred to automating the paper punching codes of the day. Even then, the focus was on automating the level of abstraction of the day, allowing programmers to work at higher levels of abstraction.
 
 > Automatic programming has always been a euphemism for programming in a higher-level language than was then available to the programmer.
@@ -29,6 +33,8 @@ When it released, it surprised everyone by how much more efficient it made progr
 >
 > John Backus
 
+![Fortran Manual](/assets/images/2026-02-15-fortran.jpeg)
+
 Around the same time as Backus, Grace Hopper developed the A-0 Compiler that pioneered subroutine management. She noted how no one would touch it, in spite of how much more efficient it was. She later went on to become the Director of Automatic Programming at Rand and played a major role in the birth of COBOL, a language written close to English that became the dominant programming language in the world.
 
 > They told me computers could only do arithmetic.
@@ -42,6 +48,9 @@ The pattern of automating programming to higher levels of abstraction continued 
 In the 2010s, multiple advanced coding tools automated parts of coding. There was Kite and Tabnine, and IntelliCode. But all of those tools of the time were brittle and had narrow use cases, more like super autocomplete. They proved there was a huge market, but failed to deliver on the necessary efficiency gains for mass adoption.
 
 Then, in 2017, some Google researchers published the now-famous "Attention is All You Need" paper, ushering in the modern AI era, driven by the Transformer architecture and Large Language Models. The Transformer architecture enabled training on vast amounts of data, learning to predict the next token with accuracy never before achieved. And they could code.
+
+![Transformer Architecture](/assets/images/2026-02-15-transformer.png)
+> By dvgodoy - https://github.com/dvgodoy/dl-visuals/?tab=readme-ov-file, CC BY 4.0, https://commons.wikimedia.org/w/index.php?curid=151216016
 
 In 2021, GitHub Copilot, powered by Codex, launched in research preview. It was polarizing, generating questionable code that sometimes saved time, but which slowed down experienced engineers and was plagued by concerns over copyright. Research found that Codex was GPT-3 fine-tuned on 159GB of Python from 54 million GitHub repos. While GPT-3 scored literally 0% on HumanEval, Codex scored 28.8%. A controlled study found Copilot users completed tasks 55.8% faster.
 
@@ -59,6 +68,8 @@ In 2025, the shift from super autocomplete to agentic coding occurred. At first,
 Research and collaboration exploded, with firms pouring billions of dollars into improving the ability for their models and platforms to support agentic coding. Massive datacenters were constructed, housing superclusters of hundreds of thousands of Nvidia chips. Open source communities shared techniques on context engineering, and the coding app makers incorporated those discoveries into their agentic harnesses.
 
 During this time, Claude Code hit 1 billion in annualized revenue within six months. Cursor reached 100M ARR with zero marketing spend and a 29.3B valuation. Anthropic reported that 70-90% of their own code was AI-generated.
+
+![Vibe Coding vs Agentic Coding](/assets/images/2026-02-15-vibe-vs-agentic.png)
 
 ## Inflection
 
@@ -79,6 +90,8 @@ Let me put it bluntly: if all you do is take specs and convert that to code by t
 We are not used to our tools improving so fast. I'm used to marginal improvements in my IDE and programming language every year or so, not massive jumps in capabilities over a few months. And now, all the major AI firms report that _the tools are writing all the code for the next generation of the tools_. Claude is writing the code for the next Claude, and Codex is building the next Codex. Releases are speeding up accordingly.
 
 If you used GitHub Copilot a year or two ago and thought "meh" or tried Claude Code in early 2025 and thought "cool, but no thanks, it isn't that good", look again. Don't let your previous experience or your biases cloud your vision. Any research or industry reports released in 2025 are now outdated, and in a few months we will have new models, new harnesses, new datacenters coming on line training and serving the next generation on the newest and most powerful Nvidia chips.
+
+![Datacenters Coming Online](/assets/images/2026-02-15-datacenters.png)
 
 Programming has changed. It is time for another shift, like that which happened when FORTRAN raised the abstraction layer. But this time, it is natural language that we use, with our specifications and pipelines, engineering the systems that engineer systems. It is scary and exciting and no one knows where it will end. I personally cannot see the ceiling. But it is time to adapt, now or never. Stop clinging to the past, to doing it the way you always have just because it is fun and comfortable. Those days are over.
 
