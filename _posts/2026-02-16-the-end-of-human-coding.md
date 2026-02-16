@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2026-02-15
+date: 2026-02-16
 title: "The End of Human Coding"
 tags: [career, ai, personal]
 ---
