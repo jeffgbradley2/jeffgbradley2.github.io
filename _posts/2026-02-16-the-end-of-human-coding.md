@@ -27,11 +27,11 @@ Automated coding has been a dream since coding was invented. The term "automatic
 
 In 1954, FORTRAN was developed at IBM to convert mathematical notation into machine instructions by John Backus. This allowed programmers to work at a much higher level than before, but programmers were skeptical. Programmers regarded their work as a creative art requiring human inventiveness, just like we do now.
 
-When it released, it surprised everyone by how much more efficient it made programmers. General Motors reported that it improved efficiency by a factor of 5-10. The IBM manual for FORTRAN was titled "The FORTRAN Automatic Coding System."
-
 > Much of my work has come from being lazy. I didn't like writing programs, and so, when I was working on the IBM 701, writing programs for computing missile trajectories, I started work on a programming system to make it easier to write programs.
 >
 > John Backus
+
+When it released, it surprised everyone by how much more efficient it made programmers. General Motors reported that it improved efficiency by a factor of 5-10. The IBM manual for FORTRAN was titled "The FORTRAN Automatic Coding System."
 
 ![Fortran Manual](/assets/images/2026-02-15-fortran.jpeg)
 
