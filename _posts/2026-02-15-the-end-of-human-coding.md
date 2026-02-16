@@ -65,7 +65,9 @@ In 2025, the shift from super autocomplete to agentic coding occurred. At first,
 - Harness Development: The creation of specialized runtime environments where agents have full access to terminal, file system, and browser tools to verify their work in real-time.
 - Context Engineering: Moving beyond simple prompts to complex approaches like Compound Engineering to autonomously record lessons learned into persistent files, leveraging Plugins and Skills to pull in live system state and maintain a deterministic source of truth for the model to follow.
 
-Research and collaboration exploded, with firms pouring billions of dollars into improving the ability for their models and platforms to support agentic coding. Massive datacenters were constructed, housing superclusters of hundreds of thousands of Nvidia chips. Open source communities shared techniques on context engineering, and the coding app makers incorporated those discoveries into their agentic harnesses.
+Research and collaboration exploded, with firms pouring billions of dollars into improving the ability for their models and platforms to support agentic coding. Massive datacenters were constructed, housing superclusters of hundreds of thousands of Nvidia chips. 
+
+![Datacenters Coming Online](/assets/images/2026-02-15-datacenters.png)
 
 During this time, Claude Code hit 1 billion in annualized revenue within six months. Cursor reached 100M ARR with zero marketing spend and a 29.3B valuation. Anthropic reported that 70-90% of their own code was AI-generated.
 
@@ -90,8 +92,6 @@ Let me put it bluntly: if all you do is take specs and convert that to code by t
 We are not used to our tools improving so fast. I'm used to marginal improvements in my IDE and programming language every year or so, not massive jumps in capabilities over a few months. And now, all the major AI firms report that _the tools are writing all the code for the next generation of the tools_. Claude is writing the code for the next Claude, and Codex is building the next Codex. Releases are speeding up accordingly.
 
 If you used GitHub Copilot a year or two ago and thought "meh" or tried Claude Code in early 2025 and thought "cool, but no thanks, it isn't that good", look again. Don't let your previous experience or your biases cloud your vision. Any research or industry reports released in 2025 are now outdated, and in a few months we will have new models, new harnesses, new datacenters coming on line training and serving the next generation on the newest and most powerful Nvidia chips.
-
-![Datacenters Coming Online](/assets/images/2026-02-15-datacenters.png)
 
 Programming has changed. It is time for another shift, like that which happened when FORTRAN raised the abstraction layer. But this time, it is natural language that we use, with our specifications and pipelines, engineering the systems that engineer systems. It is scary and exciting and no one knows where it will end. I personally cannot see the ceiling. But it is time to adapt, now or never. Stop clinging to the past, to doing it the way you always have just because it is fun and comfortable. Those days are over.
 
