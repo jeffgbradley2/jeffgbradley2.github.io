@@ -69,19 +69,19 @@ Research and collaboration exploded, with firms pouring billions of dollars into
 
 During this time, Claude Code hit 1 billion in annualized revenue within six months. Cursor reached 100M ARR with zero marketing spend and a 29.3B valuation. Anthropic reported that 70-90% of their own code was AI-generated.
 
-![Vibe Coding vs Agentic Coding](/assets/images/2026-02-15-vibe-vs-agentic.png)
+![SWE Bench Timeline](/assets/images/2026-02-15-swe-bench.png)
 
 ## Inflection
 
 In November 2025, advancements in these 4 salients and the release of Claude Opus 4.5, GPT-5.2, and Gemini 3 marked an inflection point. Across the board, programmers with influence that had been skeptical and critical of AI coding to this point, changed their tunes. From Andrej Karpathy to Martin Fowler to Kent Beck, major programming experts and writers made it clear that code was now being written entirely by AI. The message changed from "vibe code is slop" to "how do we adapt".
 
-It was at this time that I myself stopped writing any code professionally. I found Claude Code to produce high-quality code, and the plugins and skills and context engineering enabled it to generate complex coding projects in minutes that would have taken me days. I've been ringing the bell ever since. AI coding agents can now produce better code than 90% of the developers employed at my current company, at a tiny fraction of the time and cost of the human.
-
 > Programming via LLM agents is increasingly becoming a default workflow for professionals, except with more oversight and scrutiny. The goal is to claim the leverage from the use of agents but without any compromise on the quality of the software. Many people have tried to come up with a better name for this to differentiate it from vibe coding, personally my current favorite "agentic engineering."
 >
 > Andrej Karpathy
 
-![SWE Bench Timeline](/assets/images/2026-02-15-swe-bench.png)
+It was at this time that I myself stopped writing any code professionally. I found Claude Code to produce high-quality code, and the plugins and skills and context engineering enabled it to generate complex coding projects in minutes that would have taken me days. I've been ringing the bell ever since. AI coding agents can now produce better code than 90% of the developers employed at my current company, at a tiny fraction of the time and cost of the human.
+
+![Vibe Coding vs Agentic Coding](/assets/images/2026-02-15-vibe-vs-agentic.png)
 
 ## The Future
 
