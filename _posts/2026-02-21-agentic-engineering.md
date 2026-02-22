@@ -7,7 +7,7 @@ tags: ['engineering', 'ai', 'career']
 
 The transition from traditional software engineering has begun.
 
-Every software engineer that I know who isn't in denial has adopted agentic coding tools. [I posted about that previously]({% post_url 2026-02-16-the-end-of-human-coding %}). What I want to talk about now is the move _beyond_ AI coding to what is best called Agentic Engineering. It represents a much more foundational shift than "use AI coding", and it is the now and future of software engineering.
+Every software engineer that I know who isn't in denial has adopted agentic coding tools. [I posted about that previously]({% post_url 2026-02-16-the-end-of-human-coding %}) about the end of human coding. What I want to talk about now is the move _beyond_ AI coding to what is best called Agentic Engineering. It represents a much more foundational shift than "use AI coding", and it is the now and future of software engineering.
 
 ## What is Agentic Engineering
 
