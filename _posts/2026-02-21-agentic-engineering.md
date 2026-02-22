@@ -38,7 +38,7 @@ In an agentic workflow, the bottleneck is wherever the human is in the loop. For
 
 This is expected, but it's a serious problem for team leads. When your developers can produce code three or four times faster, the volume of PRs to review explodes. We identified tech lead cognitive overload and burnout as one of our highest risks. The leads are your scarcest, most senior resource. If you burn them out or force them into rubber stamping, you've undermined the entire system.
 
-Our treatment has multiple layers. First, developer-owned specification quality shifts quality upstream — catching problems before code is generated rather than after. Second, the developer self-validation step means the tech lead isn't the first line of defense; they're the second. Third, we're exploring AI-assisted code review tools to augment the human reviewer. And fourth, we monitor tech lead throughput weekly with defined escalation thresholds. If review load exceeds sustainable levels, we adjust the rollout pace — not the quality bar.
+Our treatment has multiple layers. First, developer-owned specification quality shifts quality upstream, catching problems before code is generated rather than after. Second, the developer self-validation step means the tech lead isn't the first line of defense; they're the second. Third, we're exploring AI-assisted code review tools to augment the human reviewer. And fourth, we monitor tech lead throughput weekly with defined escalation thresholds. If review load exceeds sustainable levels, we adjust the rollout pace.
 
 ## Documentation as Infrastructure
 
