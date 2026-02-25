@@ -5,20 +5,20 @@ description: Principal AI Engineer and founder of MetaReason.
 permalink: /about/
 ---
 
-I'm Jeff, but my friends call me Field. Principal AI Engineer, 15+ years in software, now focused on AI/ML. Founder of [MetaReason](https://github.com/metareason-ai).
+I'm Jeff, but my friends call me Field. Principal AI Engineer, over 15 years in software, now focused on AI/ML.
 
 ## At Work
 
 <div class="about-item">
 <h3>AI for Logistics Operations</h3>
 <div class="about-item-meta">Principal AI Engineer</div>
-<p>17 years in logistics software. I build AI systems and agentic workflows that automate the repetitive stuff: shipment tracking, rate sheets, carrier lookups. The industry runs on spreadsheets and phone calls. We're changing that.</p>
+<p>17 years in logistics software. I build AI systems and agentic workflows that automate the repetitive stuff.</p>
 </div>
 
 <div class="about-item">
 <h3>AI Governance & ISO 42001</h3>
 <div class="about-item-meta">AIMS Implementation</div>
-<p>I built our AI Management System from scratch with Jira, Confluence, and git. I lead internal audits, risk assessments, and push back on compliance theater in favor of governance that actually adds value.</p>
+<p>I built our AI Management System from scratch and manage it using the docs-as-code approach.</p>
 </div>
 
 ## At Play
@@ -26,7 +26,7 @@ I'm Jeff, but my friends call me Field. Principal AI Engineer, 15+ years in soft
 <div class="about-item">
 <h3>MetaReason</h3>
 <div class="about-item-meta">Founder</div>
-<p><a href="https://github.com/metareason-ai">MetaReason</a> is my attempt to bring classical probability and statistics to AI confidence scoring. Open source, open governance.</p>
+<p><a href="https://github.com/metareason-ai">MetaReason</a> is my attempt to bring classical probability and statistics to AI confidence scoring.</p>
 </div>
 
 <div class="about-item">
