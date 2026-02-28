@@ -60,4 +60,4 @@ This connects to the emerging practice of Specification-Driven Development: trea
 
 The term "agentic engineering" is new but the practice it describes has been forming for over a year now. I think the companies and engineers who treat this transition as an engineering discipline, with governance, measurement, and honest assessment of what's working, rather than as a magic productivity multiplier, will be the ones who capture its genuine value.
 
-The tools are excellent and getting better fast, but the tools were never the hard part. The hard part is understanding requirements deeply, designing systems that hold up, making judgment calls under uncertainty, and verifying that software does what it should. Agentic engineering doesn't makes these problems more important.
+The tools are excellent and getting better fast, but the tools were never the hard part. The hard part is understanding requirements deeply, designing systems that hold up, making judgment calls under uncertainty, and verifying that software does what it should. Agentic engineering makes these problems more important.
