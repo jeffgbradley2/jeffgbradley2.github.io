@@ -22,3 +22,5 @@ Gemfile.lock
 # Claude Code
 CLAUDE.md
 .claude/
+
+.obsidian

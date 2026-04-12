@@ -81,8 +81,6 @@ The answer is that an ISO certification is a world-recognized stamp of approval 
 
 But certification is not the finish line, and to that end we must continually recertify every year to verify that we are continuing to not only operate our AIMS to the ISO 42001 standard, but _improve_ it, measurably and demonstrably increasing our effectiveness in delivering responsible AI systems to our customers.
 
-It is also worth noting what certification does _not_ mean. It does not mean our AI systems are inherently "safe" or "ethical." It means we have a verified, functioning system for governing them: identifying risks, implementing controls, monitoring outcomes, and improving over time. The distinction matters.
-
 ## How It Feels
 
 It's been almost a year from initial project conception to the final audit. It feels great to have built something from nothing, operated it, improved it, and had a third party verify it meets the standards of ISO 42001. It was a huge team effort, especially from my CTO and the Governance Committee members. The support and teamwork was amazing, and bringing a big project home successfully together feels amazing.

@@ -2,6 +2,7 @@
 layout: post
 date: 2026-03-08
 title: Lessons Learned Building an Agentic Application
+tags: ['ai', 'engineering']
 ---
 
 Over the last few months, one of my main projects has been building and deploying an agentic application. Recently, the application entered Alpha with real users, and I've been working closely with operators to address issues and add features as new requirements surface.
