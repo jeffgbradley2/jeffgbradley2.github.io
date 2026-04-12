@@ -2,7 +2,7 @@
 layout: post
 date: 2026-04-12
 title: Passing the ISO 42001 Audit With Zero Findings
-tags: ai, ai-governance
+tags: ['ai', 'ai-governance']
 ---
 
 There are not many organizations that have taken an AI Management System through the full ISO 42001 registration process yet. As of April 8, Rygen Technologies is among those companies, and we did it with zero findings. This is a practitioner account of what it took: building the system, operating it, auditing it, and getting it certified.
