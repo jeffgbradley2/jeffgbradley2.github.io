@@ -92,3 +92,5 @@ That, along with the certification, feels very good.
 ## Looking Ahead
 
 As we move forward into 2026, my main priority with the AIMS is continuing to improve it. I want to automate the bureaucratic surface areas: the generation of standard documents, templated processes, audit preparations and evidence collection. I want to evolve our AIMS with agentic AI that augments human judgment and governance decisions, while automating the tedium. And I want to optimize delivery velocity and ROI while maintaining quality and the risk posture we have so carefully developed over the past year.
+
+Hopefully, at the end of 2026, our AIMS is serving us not just as a tool for gaining new clients, but as a legitimate framework for governing AI systems that we use and build. As AI gets increasingly more capable and the pressure to deploy it grows, having an ISO certified framework for governing them will ensure that we are successful in the long term.
